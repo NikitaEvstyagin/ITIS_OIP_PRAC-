@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="ru">
+<head>
+<title>Федор Достоевский Записки из Мёртвого дома в списке 100 лучших книг всех времен</title>
+<meta charset="UTF-8" />
+<meta name="keywords" content="сто 100 лучших книг всех времен рейтинг самые лучшие книги мира что почитать" />
+<meta name="description" content="Федор Достоевский Записки из Мёртвого дома в списке 100 лучших книг всех времен. Рейтинг, отзывы, цитата, описание. Онлайн голосование за лучшие книги всех времен" />
+<meta name=viewport content="width=device-width, initial-scale=1.0" />
+<meta property="og:title" content="Федор Достоевский Записки из Мёртвого дома в списке 100 лучших книг всех времен" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.100bestbooks.ru/item_info.php?id=10707" />
+<meta property="og:image" content="http://www.100bestbooks.ru/img/logo-fb.jpg" />
+<meta property="og:description" content="Федор Достоевский Записки из Мёртвого дома в списке 100 лучших книг всех времен. Рейтинг, отзывы, цитата, описание. Онлайн голосование за лучшие книги всех времен" />
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.100bestbooks.ru/m/item_info.php?id=10707" >
+<link rel="stylesheet" href="script/jquery-ui-1.11.4.books/jquery-ui.min.css" type="text/css"/>
+<meta name='yandex-verification' content='43b0aadda432aeaa'>
+<meta name="google-site-verification" content="D6VqsrdYX-SYB1yMv6CoXDzWfkWQRj5DPNODuy2ALcA">
+<link rel="stylesheet" type="text/css" href="/style/100bbooks.css">
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+<script type="text/javascript">
+  VK.init({apiId: 5286888, onlyWidgets: true});
+</script>
+<script src="script/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="script/jquery-ui-1.11.4.books/jquery-ui.min.js " type="text/javascript"></script>
+ 
+<script data-ad-client="ca-pub-4958342012590043" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <script type="text/javascript">
+        function sendError() {
+            var txt = $.trim($("#errorReportText").val());
+            var email = $.trim($("#errorReportEmail").val());
+            if (txt == "") {
+                alert("Опишите замеченную ошибку/неточность.");
+                return;
+            }
+            $.post("report_error.php?item_id=10707", {problem: txt, email: email});
+            alert("Ваше сообщение отправлено. Спасибо!");
+            $('#reportError').dialog('close');
+        }
+
+        function onLoad() {
+                $.ajax({
+                    url: "https://robot.litres.ru/pages/catalit_browser/",
+                    data: {'search': ' Федор Достоевский Записки из Мёртвого дома'},
+                    type: "POST",
+                    dataType: "XML",
+                    success: function (dataXML) {
+                        var okDaB = false;
+                        var okPreview = false;
+                        if (dataXML.childElementCount > 0 && dataXML.firstChild.childElementCount > 0) {
+                            var book = $(dataXML).find("fb2-book");
+                            if (book != null) {
+                                var bookId = book.first().attr("hub_id");
+                                if (bookId != null) {
+                                    $('#see-also').html('<div class="litres_widget_body" style="width: 600px; height: 300px;"></div>');
+                                    var litres_widget_book_view_id = bookId;
+                                    var litres_widget_lfrom = 18645073;
+                                    (function(d, t){
+                                        var lw = d.createElement(t),s = d.getElementsByTagName(t)[0];
+                                        lw.async = 1;
+                                        lw.src = "https://www.litres.ru/static/widgets/js/widget.js";
+                                        s.parentNode.insertBefore(lw, s);
+                                    })(document, "script");
+                                }
+                            }
+                        }
+                    }
+                });
+        }
+    </script>
+
+	<div style="background: url('/img/fon-top.jpg') top left repeat-x;">
+		<img src="/img/p.gif" width="52" height="117" alt="" style="border: 0px">
+	</div>
+	<div class="wall">
+		<img src="/img/wall.png" width="400" height="400" alt="" class="iePNG">
+	</div>
+	<div style="z-index:100;background-color: black; color: white; position:absolute; top: 3px; left:50px; padding: 3px 10px 3px 10px; font-family: Arial">
+		<a href="/m/index.php" title="Мобильная версия" class="mobile">Мобильная версия</a>
+	</div>
+	<script type="text/javascript" src="/script/utils.js"></script>
+	<form action="/search.php" method="post" name="searchForm">
+	<input type="hidden" name="back" value="0">
+	<table class="table-menu">
+		<tr>
+			<td class="col-mainmenu">
+				<div class="mainmenu">
+					<table style="border-spacing: 0px; border: 0px; padding: 0px; width:100%">
+						<tr>
+							<td><img src="/img/p.gif" width="43" height="14" alt=""></td>
+							<td class='menu-item'><a href='/index.php?main_list=1'  title='На главную'><b>100 лучших книг</b></a></td>
+							<td class='menu-item'><a href='/add_item.php'  title='Добавить книгу'><b>Добавить книгу</b></a></td>
+							<td class='menu-item'><a href='/start_vote.php'  title='Проголосовать за книги из списка лучших книг всех времен'><b>Проголосовать</b></a></td>
+							<td class='menu-item'><a href='/index.php?main_list=0' class='notmain' title='Список книг&ndash;кандидатов на включение в основной список лучших'><b>Список кандидатов</b></a></td>
+							<td class='menu-item'><a href='/selection_wizard.php' class='notmain' title='Сервис подбора лучших книг по вашим интересам'><b>Что почитать?</b></a></td>
+							<td class='menu-item'><a href='/names.php' class='notmain' title='Лучшие писатели'>Лучшие писатели</a></td>
+							<td class='menu-item'><a href='/news.php' class='notmain' title='Новости'>Новости</a></td>
+							<td class='menu-item'><a href='/ratings.php' class='notmain' title='Другие литературные рейтинги и топы книг'>Другие рейтинги книг</a></td>
+							<td class='menu-item'><a href='/recommended.php' class='notmain' title='Тематические списки и подборки интересных книг'>Подборки книг</a></td>
+							<td class='menu-item'><a href='/quizz/quizzes.php'  title='Играть!'><b>Играть!</b></a></td>
+							<td class="menu-search" style="padding-left:5px"><input type="text" maxlength="200" id="searchText" name="q" class="" value="поиск..." onKeyPress="return onEnterKey(event, 'searchText', 'поиск...')" onFocus="clearText('searchText', 'поиск...')" onBlur="setText('searchText', 'поиск...')"></td>
+							<td><a href="javascript:doSearch('searchText', 'searchForm', 'поиск...')"><img src="/img/icon-search.gif" width="14" height="14" alt="Найти" title="Найти" style="border: 0px"></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="/img/menu-shadow.png" height="39" class="iePNG" style="width: 100%" alt="">
+            </td>
+		</tr>
+	</table>
+	</form>
+
+    <div id="reportError" title="Сообщить об ошибке" style="display:none" >
+        <p>Email для обратной связи (необязательно)</p>
+        <input type="text" id="errorReportEmail"><br>
+        <p>Опишите замеченную на этой странице ошибку/неточность в форме ниже</p>
+        <textarea id="errorReportText" rows="3" cols="20"></textarea><br><br>
+        <input type="button" value="Ok" onclick="sendError()">&nbsp;
+        <input type="button" value="Отмена" onclick="$('#reportError').dialog('close')">
+    </div>
+
+    <table class="table-main">
+<tr>
+    <td colspan="2" class="col-adv">
+<!-- Yandex.RTB R-A-102592-4 -->
+<div id="yandex_rtb_R-A-102592-4"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-4",
+                renderTo: "yandex_rtb_R-A-102592-4",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+	</td>
+	<td class="col-intro-adv">
+    </td>
+</tr>
+        <tr>
+            <td class="col-logo">
+                <br>&#8592; <a href="index.php" class="menu">На главную</a>
+            </td>
+            <td class="col-intro" style="text-align: right">&nbsp;</td>
+            <td style="padding-left:25px"></td>
+        </tr>
+        <tr itemscope itemtype="http://schema.org/Book" style="vertical-align: top">
+            <td colspan="2" class="col-content">
+
+                <h1 itemprop="name">Записки из Мёртвого дома</h1>
+
+                <table class="table-bookinfo">
+                    <tr  style="vertical-align: top">
+                        <td rowspan="11" class="bookinfo-pic">
+                            <a href='pictures/books/Dostoevsky_Zapiski_iz_Mertvogo_doma.jpeg'><img itemprop='image' src='pictures/books/Dostoevsky_Zapiski_iz_Mertvogo_doma.jpeg' class='bookinfo-preview' alt="Федор Достоевский Записки из Мёртвого дома" /></a><br/><a href='pictures/books/Dostoevsky_Zapiski_iz_Mertvogo_doma.jpeg'><img src='img/icon-zoom.gif' class='icon-zoom' alt='Увеличить'/>Увеличить</a>                        </td>
+                        <td class="bookinfo-col-head">Автор:</td>
+                        <td class="bookinfo-col-text">
+                            <a href='name_info.php?id=7' itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">Федор Достоевский</span>                            </a>
+                        </td>
+                    </tr>
+                            <tr class='chet'>
+                                <td class="bookinfo-col-head">Оригинальное название:</td>
+                                <td class="bookinfo-col-text">Записки из Мёртвого дома</td>
+                            </tr>
+                    <tr >
+                        <td class="bookinfo-col-head">Метки:</td>
+                        <td class="bookinfo-col-text"><a href='index.php?tag_id=390'>Реализм</a><meta itemprop="genre" content="Реализм">, <a href='index.php?tag_id=1'>Классика</a><meta itemprop="genre" content="Классика">, <a href='index.php?tag_id=12'>Роман</a><meta itemprop="genre" content="Роман">, <a href='index.php?tag_id=26'>Философия</a><meta itemprop="genre" content="Философия"></td>
+                    </tr>
+                    <tr class='chet'>
+                        <td class="bookinfo-col-head">Язык оригинала:</td>
+                        <td class="bookinfo-col-text">
+<a href='index.php?lang_id=1' title='Русский'>Русский</a>                        </td>
+                    </tr>
+                    <tr >
+                        <td class="bookinfo-col-head">Год:</td>
+                        <td class="bookinfo-col-text" itemprop="datePublished">1860-1861</td>
+                    </tr>
+                    <tr class='chet'>
+                        <td class="bookinfo-col-head">Входит в основной список:</td>
+                        <td class="bookinfo-col-text">Да</td>
+                    </tr>
+                                <tr >
+                                    <td class="bookinfo-col-head">Скачать:
+                                    </td>
+                                    <td class="bookinfo-col-text">
+                                        <link itemprop="bookFormat" href="http://schema.org/EBook">
+                                        <table class='t-check'>
+                                            <tr>
+                                                <td>
+<a href='download_file.php?item_id=10707&link=1' title='Скачать книгу в формате doc'><img src='img/doc.jpg' alt='doc'>&nbsp;doc</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a href='download_file.php?item_id=10707&link=2' title='Скачать книгу в формате fb2'><img src='img/fb2.jpg' alt='fb2'>&nbsp;fb2</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a href='download_file.php?item_id=10707&link=3' title='Скачать книгу в формате pdf'><img src='img/pdf.jpg' alt='pdf'>&nbsp;pdf</a></td>                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class='chet'>
+                                    <td class="bookinfo-col-head">Читать:</td>
+                                    <td class="bookinfo-col-text">
+                                        <strong><a href="read_book.php?item_id=10707" title="Читать Федор Достоевский &laquo;Записки из Мёртвого дома&raquo;">Читать Федор Достоевский &laquo;Записки из Мёртвого дома&raquo; >>></a></strong>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td class="bookinfo-col-head">Авторские права:</td>
+                                    <td class="bookinfo-col-text">
+                                        <small>Все права на все книги на этом сайте безусловно принадлежат их правообладателям. Если публикация книги на сайте нарушает чьи-либо авторские права,                                             <script type="text/javascript">
+                                                var login = 'admin';
+                                                var srvr = '100bestbooks.ru';
+                                                var addr = login + '@' + srvr;
+                                                var url = 'mailto:' + addr;
+                                                document.write('<a href="' + url + '">' + 'сообщите нам' + '</a>');
+                                            </script>
+             об этом и она будет немедленно убрана из публичного доступа                                        </small>
+                                    </td>
+                                </tr>
+                    <tr class='chet'>
+                        <td colspan="2">
+                            <p><b>Описание:</b></p>
+                            <p itemprop="description">Достоевский описывает годы, проведенные им в тюрьме, на каторге. Рассказывает о тюремной жизни, тамошних условиях, нравах, обычаях.</p>
+                            <div id="see-also"></div>
+                        </td>
+                    </tr>
+                </table>
+                    <h2>Цитата:</h2>
+
+                    <table class="table-quote">
+                        <tr>
+                            <td class="quote-l">&laquo;</td>
+                            <td class="quote-t">
+                                <span itemprop="citation">
+                                    Острог наш стоял на краю крепости, у самого крепостного вала. Случалось, посмотришь сквозь щели забора на свет божий: не увидишь ли хоть чего-нибудь? — и только и увидишь, что краешек неба да высокий земляной вал, поросший бурьяном, а взад и вперед по валу, день и ночь, расхаживают часовые; и тут же подумаешь, что пройдут целые годы, а ты точно так же подойдешь смотреть сквозь щели забора и увидишь тот же вал, таких же часовых и тот же маленький краешек неба, не того неба, которое над острогом, а другого, далекого, вольного неба. Представьте себе большой двор, шагов в двести длины и шагов в полтораста ширины, весь обнесенный кругом, в виде неправильного шестиугольника, высоким тыном, то есть забором из высоких столбов (паль), врытых стойком глубоко в землю, крепко прислоненных друг к другу ребрами, скрепленных поперечными планками и сверху заостренных: вот наружная ограда острога. В одной из сторон ограды вделаны крепкие ворота, всегда запертые, всегда день и ночь охраняемые часовыми; их отпирали по требованию, для выпуска на работу. За этими воротами был светлый, вольный мир, жили люди, как и все. Но по сю сторону ограды о том мире представляли себе, как о какой-то несбыточной сказке. Тут был свой особый мир, ни на что не похожий, тут были свои особые законы, свои костюмы, свои нравы и обычаи, и заживо мертвый дом, жизнь — как нигде, и люди особенные. Вот этот-то особенный уголок я и принимаюсь описывать.<br><br>Как входите в ограду — видите внутри ее несколько зданий. По обеим сторонам широкого внутреннего двора тянутся два длинных одноэтажных сруба. Это казармы. Здесь живут арестанты, размещенные по разрядам. Потом, в глубине ограды, еще такой же сруб: это кухня, разделенная на две артели; далее еще строение, где под одной крышей помещаются погреба, амбары, сараи. Средина двора пустая и составляет ровную, довольно большую площадку. Здесь строятся арестанты, происходит поверка и перекличка утром, в полдень и вечером, иногда же и еще по нескольку раз в день, — судя по мнительности караульных и их уменью скоро считать. Кругом, между строениями и забором, остается, еще довольно большое пространство. Здесь, по задам строений, иные из заключенных, понелюдимее и помрачнее характером, любят ходить в нерабочее время, закрытые от всех глаз, и думать свою думушку. Встречаясь с ними во время этих прогулок, я любил всматриваться в их угрюмые, клейменые лица и угадывать, о чем они думают. Был один ссыльный, у которого любимым занятием в свободное время, было считать пали. Их было тысячи полторы, и у него они были все на счету и на примете. Каждая паля означала у него день; каждый день он отсчитывал по одной пале и таким образом по оставшемуся числу несосчитанных паль мог наглядно видеть, сколько дней еще остается ему пробыть в остроге до срока работы. Он был искренно рад, когда доканчивал какую-нибудь сторону шестиугольника. Много лет приходилось еще ему дожидаться; но в остроге было время научиться терпению. Я видел раз, как прощался с товарищами один арестант, пробывший в каторге двадцать лет и наконец выходивший на волю. Были люди, помнившие, как он вошел в острог первый раз, молодой, беззаботный, не думавший ни о своем преступлении, ни о своем наказании. Он выходил седым стариком, с лицом угрюмым и грустным. Молча обошел он все наши шесть казарм. Входя в каждую казарму, он молился на образа и потом низко, в пояс, откланивался товарищам, прося не поминать его лихом. Помню я тоже, как однажды одного арестанта, прежде зажиточного сибирского мужика, раз под вечер позвали к воротам. Полгода перед этим получил он известие, что бывшая его жена вышла замуж, и крепко запечалился. Теперь она сама подъехала к острогу, вызвала его и подала ему подаяние. Они поговорили минуты две, оба всплакнули и простились навеки. Я видел его лицо, когда он возвращался в казарму… Да, в этом месте можно было научиться терпению.                                </span>
+                                        <br><br>
+                                        <strong>
+                                            <a href="read_book.php?item_id=10707" title="Читать Федор Достоевский Записки из Мёртвого дома">Федор Достоевский &laquo;Записки из Мёртвого дома&raquo; полный текст >>></a>
+                                        </strong>
+                            </td>
+                            <td class="quote-r">&raquo;</td>
+                        </tr>
+                    </table>
+                 <h2>
+                         <a href="comments.php?id=10707" class="no-vis">Отзывы (4)</a>
+                 </h2>
+
+                <table class="table-quote">
+                    <tr>
+                        <td class="quote-l">&nbsp;</td>
+                        <td class="quote-t">
+                                 <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=10707#c15074" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Коля</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2017-10-16">
+                                            <small style="white-space: nowrap;">16.10.2017</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=10707#c15074">
+                                            <span itemprop="reviewBody">Прекрасная книга.
+Достоевский один из величайших писателей мирового масштаба. 
+И удивляться тут надо только тому, что кто-то может считать его произведения "мало популярной" 
+классикой!=))</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=10707#c12546" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">антон</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-12-06">
+                                            <small style="white-space: nowrap;">06.12.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=10707#c12546">
+                                            <span itemprop="reviewBody">Не вижу ничего удивительного в том,что Достоевский,как выяснилось,один из самых популярных классиков.</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=10707#c11913" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Оля</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-07-27">
+                                            <small style="white-space: nowrap;">27.07.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=10707#c11913">
+                                            <span itemprop="reviewBody">Удивительно: ещё одна книга Ф.М. Достоевского вот-вот окажется в первой сотне. За последние полгода это, если я не ошибаюсь уже пятое произведение. Неужели у нас такой резкий всплеск интереса к творчеству этого писателя? Извините, уважаемая администрация сайта, но я больше не верю в вашу объективность. Вы либо сами пихаете вперёд малопопулярную классику, либо закрываете глаза на чьё-то мошенничество.</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=10707#c10959" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Читатель</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-02-10">
+                                            <small style="white-space: nowrap;">10.02.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=10707#c10959">
+                                            <span itemprop="reviewBody">Удивительно, но не смотря на название, книга не мрачная, а скорее утверждающая, по крайней мере, для меня. И хотя, ничего неожиданного в ней не было, многие вещи переосмыслила</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            <p class="review-add">
+                                    <a href='comments.php?id=10707'>Все отзывы&nbsp;>>></a><br><br>
+                                <a href='add_comment.php?item_id=10707'>Добавить отзыв</a>&nbsp;
+                                <img src='img/add-review.gif' width='10' height='10' alt='' style='border: 0px; margin: 0px 5px'><br><br>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="col-right" rowspan="2">
+                <a href="javascript:void(0)" onclick="$('#reportError').dialog()"><i>Сообщить об ошибке</i></a>
+                <br><br>
+                <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<table style="width: 300px; margin-left: -5px;">
+	<tr>
+		<td>
+			<div class="fb-like" data-href="http://100bestbooks.ru" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+		</td>
+		<td>
+			<div id="vk_like"></div>
+			<script type="text/javascript">
+			VK.Widgets.Like("vk_like", {type: "button", height: 20});
+			</script>
+		</td>
+	</tr>
+</table>
+<br>                <div class="block-header-stat">
+                    <div class="header">
+                        Статистика                    </div>
+                </div>
+                <br style="clear: both;">
+                <div class="block-statistics" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <meta itemprop="bestRating" content="5">
+                    <meta itemprop="worstRating" content="-3">
+                    <meta itemprop="reviewCount" content="4">
+                    <span class="t-dgray">Место в списке:&nbsp;<b>82</b></span>
+                    <br>
+                    <span class="t-dgray">Баллы:&nbsp;<b>6301</b></span>
+                    <br>
+                    <span class="t-dgray">Средний балл:&nbsp;<b><span itemprop='ratingValue'>2.32</span></b></span>
+                    <br>
+                    <span class="t-dgray">Проголосовало:&nbsp;<b><span itemprop='ratingCount'>2714</span>&nbsp;человек</b></span>
+                    <br>
+                    <span class="t-dgray">Голосов за удаление:&nbsp;<b>30</b></span>
+                    <br>
+
+                    <div class="block-stat-more">
+                                <div class="stat-line-1" style="width: 58%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">1548&nbsp;человек&nbsp;поставили&nbsp;5</div>
+                                <div class="stat-line-2" style="width: 3%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">61&nbsp;человек&nbsp;поставили&nbsp;4</div>
+                                <div class="stat-line-3" style="width: 3%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">58&nbsp;человек&nbsp;поставили&nbsp;3</div>
+                                <div class="stat-line-4" style="width: 2%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">47&nbsp;человек&nbsp;поставили&nbsp;2</div>
+                                <div class="stat-line-5" style="width: 5%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">122&nbsp;человека&nbsp;поставили&nbsp;1</div>
+                                <div class="stat-line-6" style="width: 9%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">222&nbsp;человека&nbsp;поставили&nbsp;-1</div>
+                                <div class="stat-line-7" style="width: 5%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">117&nbsp;человек&nbsp;поставили&nbsp;-2</div>
+                                <div class="stat-line-8" style="width: 20%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">539&nbsp;человек&nbsp;поставили&nbsp;-3</div>
+                    </div>
+                </div>
+
+                                <div class="right-column-item">
+<div class="buy-wrapper">
+<script type="text/topadvert">
+load_event: page_load
+feed_id: 4113
+pattern_id: 1296
+format: 2
+book_author: Федор Достоевскийbook_name: Записки из Мёртвого дома</script><script type="text/javascript" charset="utf-8" defer="defer" async="async" src="https://loader.adrelayer.com/load.js"></script>
+<script type="text/javascript" charset="utf-8" defer="defer" async="async" src="https://cainterbar.affiler.trade/bliminiate.js"></script>
+<!--div class="block-header">
+	<div class="header" style="display:none" id="BuyHdr">Купить</div>
+</div>
+<br clear="all"><br clear="all"-->
+</div>
+</div>
+
+<div class="right-column-item">
+<div class="buy-wrapper">
+<div class="kpoisk" data-title="Записки из Мёртвого дома" data-author="Федор Достоевский"></div>
+<script src="https://knigopoisk.com/partner/script/18.js" async></script>
+</div>
+</div>
+                <div class="block-header">
+                    <div class="header-questions">
+Квиз&nbsp;(0)                    </div>
+                </div>
+                <br>
+                <div class="block-notice-h">
+                        <span>Нет вопросов по книге Федор Достоевский &laquo;Записки из Мёртвого дома&raquo;</span>
+                        <br>
+                        <a href="post_question.php?item_id=10707" class="no-vis">
+                            Отправить свой вопрос >>>                        </a>
+                </div>
+                <script type="text/javascript" src="script/position.js"></script>
+<div class="right-column-item" id="adv-block-fixed">
+<!-- Yandex.RTB R-A-102592-7 -->
+<div id="yandex_rtb_R-A-102592-7"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-7",
+                renderTo: "yandex_rtb_R-A-102592-7",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+</div>
+
+
+
+
+
+
+                <a href="javascript:void(0)" onclick="$('#reportError').dialog()"><i>Сообщить об ошибке</i></a>
+            </td>
+        </tr>
+        <tr>
+    <td colspan="2" style="padding-left:50px; padding-top:20px">
+        <!-- Yandex.RTB R-A-102592-5 -->
+<div id="yandex_rtb_R-A-102592-5"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-5",
+                renderTo: "yandex_rtb_R-A-102592-5",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+
+        <br><br>
+        <div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "728", attach: "*"});
+</script>
+<br>        
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td colspan="3" class="bottom">
+        <div class="bottom-line"><img src="/img/p.gif" width="1" height="2" alt="" /></div>
+    </td>
+</tr>
+<tr style="vertical-align: top">
+    <td class="bottom-copyright">
+        &copy; 2009&ndash;2026 <a href="/index.php">&laquo;100 лучших книг&raquo;</a>&nbsp;
+        При  частичном или полном цитировании материалов сайта ссылка на <a href='http://100bestbooks.ru'>100bestbooks.ru</a> обязательна<br>
+        <script type="text/javascript">
+                var login  = 'admin';
+                var srvr = '100bestbooks.ru';
+                var addr  = login+'@'+srvr;
+                var url = 'mailto:'+ addr;
+                document.write('<a href="'+url+'">'+ 'Напишите нам' +'</a>');
+        </script>
+        &nbsp;|&nbsp;<a href="/about.php">О&nbsp;проекте</a>
+    </td>
+    <td>
+
+<!-- Top100 (Kraken) Counter -->
+<script>
+    (function (w, d, c) {
+    (w[c] = w[c] || []).push(function() {
+        var options = {
+            project: 1938717,
+        };
+        try {
+            w.top100Counter = new top100(options);
+        } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src =
+    (d.location.protocol == "https:" ? "https:" : "http:") +
+    "//st.top100.ru/top100/top100.js";
+
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(window, document, "_top100q");
+</script>
+<noscript>
+  <img src="//counter.rambler.ru/top100.cnt?pid=1938717" alt="Топ-100" />
+</noscript>
+<!-- END Top100 (Kraken) Counter -->
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t14.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "1751161", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=1751161;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<!-- Rating@Mail.ru logo -->
+<a href="http://top.mail.ru/jump?from=1751161">
+<img src="//top-fwz1.mail.ru/counter?id=1751161;t=487;l=1"
+style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a>
+<!-- //Rating@Mail.ru logo -->
+
+<!--Openstat-->
+<span id="openstat2058766"></span><script type="text/javascript"> var openstat = { counter: 2058766, image: 5012, next: openstat }; document.write(unescape("%3Cscript%20src=%22http" +
+(("https:" == document.location.protocol) ? "s" : "") +
+"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E")); </script>
+<!--Openstat-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15391107-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15391107-1');
+</script>
+
+
+
+        </td>
+        <td class="bottom-xpanda">
+<!-- Yandex.Metrika informer -->
+<a href="http://metrika.yandex.ru/stat/?id=18692437&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/18692437/3_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:18692437,type:0,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter18692437 = new Ya.Metrika({id:18692437,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/18692437" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    </td>
+</tr>
+    </table>
+</body>
+</html>

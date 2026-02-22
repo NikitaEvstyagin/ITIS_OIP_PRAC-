@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="ru">
+<head>
+<title>Джордж Оруэлл 1984 в списке 100 лучших книг всех времен</title>
+<meta charset="UTF-8" />
+<meta name="keywords" content="сто 100 лучших книг всех времен рейтинг самые лучшие книги мира что почитать" />
+<meta name="description" content="Джордж Оруэлл 1984 в списке 100 лучших книг всех времен. Рейтинг, отзывы, цитата, описание. Онлайн голосование за лучшие книги всех времен" />
+<meta name=viewport content="width=device-width, initial-scale=1.0" />
+<meta property="og:title" content="Джордж Оруэлл 1984 в списке 100 лучших книг всех времен" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.100bestbooks.ru/item_info.php?id=47" />
+<meta property="og:image" content="http://www.100bestbooks.ru/img/logo-fb.jpg" />
+<meta property="og:description" content="Джордж Оруэлл 1984 в списке 100 лучших книг всех времен. Рейтинг, отзывы, цитата, описание. Онлайн голосование за лучшие книги всех времен" />
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.100bestbooks.ru/m/item_info.php?id=47" >
+<link rel="stylesheet" href="script/jquery-ui-1.11.4.books/jquery-ui.min.css" type="text/css"/>
+<meta name='yandex-verification' content='43b0aadda432aeaa'>
+<meta name="google-site-verification" content="D6VqsrdYX-SYB1yMv6CoXDzWfkWQRj5DPNODuy2ALcA">
+<link rel="stylesheet" type="text/css" href="/style/100bbooks.css">
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+<script type="text/javascript">
+  VK.init({apiId: 5286888, onlyWidgets: true});
+</script>
+<script src="script/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="script/jquery-ui-1.11.4.books/jquery-ui.min.js " type="text/javascript"></script>
+ 
+<script data-ad-client="ca-pub-4958342012590043" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <script type="text/javascript">
+        function sendError() {
+            var txt = $.trim($("#errorReportText").val());
+            var email = $.trim($("#errorReportEmail").val());
+            if (txt == "") {
+                alert("Опишите замеченную ошибку/неточность.");
+                return;
+            }
+            $.post("report_error.php?item_id=47", {problem: txt, email: email});
+            alert("Ваше сообщение отправлено. Спасибо!");
+            $('#reportError').dialog('close');
+        }
+
+        function onLoad() {
+                $.ajax({
+                    url: "https://robot.litres.ru/pages/catalit_browser/",
+                    data: {'search': ' Джордж Оруэлл 1984'},
+                    type: "POST",
+                    dataType: "XML",
+                    success: function (dataXML) {
+                        var okDaB = false;
+                        var okPreview = false;
+                        if (dataXML.childElementCount > 0 && dataXML.firstChild.childElementCount > 0) {
+                            var book = $(dataXML).find("fb2-book");
+                            if (book != null) {
+                                var bookId = book.first().attr("hub_id");
+                                if (bookId != null) {
+                                    var hasPreview = book.first().attr("has_trial");
+                                    if (hasPreview == 1) {
+                                        var fb2Url = "http://www.litres.ru/gettrial/?art=" + bookId + "&format=fb2.zip&lfrom=18645073";
+                                        var epubUrl = "http://www.litres.ru/gettrial/?art=" + bookId + "&format=epub&lfrom=18645073";
+                                        var txtUrl = "http://www.litres.ru/gettrial/?art=" + bookId + "&format=txt.zip&lfrom=18645073";
+                                        var rtfUrl = "http://www.litres.ru/gettrial/?art=" + bookId + "&format=rtf.zip&lfrom=18645073";
+                                        var pdfa4Url = "http://www.litres.ru/gettrial/?art=" + bookId + "&format=a4.pdf&lfrom=18645073";
+                                        var pdfa6Url = "http://www.litres.ru/gettrial/?art=" + bookId + "&format=a6.pdf&lfrom=18645073";
+
+                                        $('#preview-litres').html(
+                                                "<a href='" + fb2Url + "' title='Скачать ознакомительный фрагмент в формате fb2'>" +
+                                                "<img src='img/fb2.jpg'>&nbsp;" +
+                                                "fb2" + "</a>&nbsp;&nbsp;&nbsp;" +
+                                                "<a href='" + epubUrl + "' title='Скачать ознакомительный фрагмент в формате epub'>" +
+                                                "<img src='img/epub.jpg'>&nbsp;" +
+                                                "epub" + "</a>&nbsp;&nbsp;&nbsp;" +
+                                                "<a href='" + txtUrl + "' title='Скачать ознакомительный фрагмент в формате txt'>" +
+                                                "<img src='img/txt.jpg'>&nbsp;" +
+                                                "txt" + "</a>&nbsp;&nbsp;&nbsp;" +
+                                                "<a href='" + rtfUrl + "' title='Скачать ознакомительный фрагмент в формате rtf'>" +
+                                                "<img src='img/rtf.jpg'>&nbsp;" +
+                                                "rtf" + "</a>&nbsp;&nbsp;&nbsp;" +
+                                                "<a href='" + pdfa4Url + "' title='Скачать ознакомительный фрагмент в формате pdf (размер A4)' target='_blank'>" +
+                                                "<img src='img/pdf.jpg'>&nbsp;" +
+                                                "pdf (A4)" + "</a>&nbsp;&nbsp;&nbsp;" +
+                                                "<a href='" + pdfa6Url + "' title='Скачать ознакомительный фрагмент в формате pdf (размер A6)' target='_blank'>" +
+                                                "<img src='img/pdf.jpg'>&nbsp;" +
+                                                "pdf (A6)" + "</a>&nbsp;");
+                                        $('#read-preview-litres').html(
+                                                "<a href='read_preview.php?item_id=47&book_id=" + bookId + "'><b>Читать >>></b></a>");
+                                        okPreview = true;
+                                    }
+                                    $('#see-also').html('<div class="litres_widget_body" style="width: 600px; height: 300px;"></div>');
+                                    var litres_widget_book_view_id = bookId;
+                                    var litres_widget_lfrom = 18645073;
+                                    (function(d, t){
+                                        var lw = d.createElement(t),s = d.getElementsByTagName(t)[0];
+                                        lw.async = 1;
+                                        lw.src = "https://www.litres.ru/static/widgets/js/widget.js";
+                                        s.parentNode.insertBefore(lw, s);
+                                    })(document, "script");
+                                }
+                            }
+                            }
+                        if (!okDaB && $('#buy-and-download-litres').val() != null) {
+                            $('#buy-and-download-litres').html("Недоступно");
+                        }
+                        if (!okPreview && $('#preview-litres').val() != null) {
+                            $('#preview-litres').html("Недоступно");
+                            $('#read-preview-litres').html("Недоступно");
+                        }
+                    }
+                });
+        }
+    </script>
+
+	<div style="background: url('/img/fon-top.jpg') top left repeat-x;">
+		<img src="/img/p.gif" width="52" height="117" alt="" style="border: 0px">
+	</div>
+	<div class="wall">
+		<img src="/img/wall.png" width="400" height="400" alt="" class="iePNG">
+	</div>
+	<div style="z-index:100;background-color: black; color: white; position:absolute; top: 3px; left:50px; padding: 3px 10px 3px 10px; font-family: Arial">
+		<a href="/m/index.php" title="Мобильная версия" class="mobile">Мобильная версия</a>
+	</div>
+	<script type="text/javascript" src="/script/utils.js"></script>
+	<form action="/search.php" method="post" name="searchForm">
+	<input type="hidden" name="back" value="0">
+	<table class="table-menu">
+		<tr>
+			<td class="col-mainmenu">
+				<div class="mainmenu">
+					<table style="border-spacing: 0px; border: 0px; padding: 0px; width:100%">
+						<tr>
+							<td><img src="/img/p.gif" width="43" height="14" alt=""></td>
+							<td class='menu-item'><a href='/index.php?main_list=1'  title='На главную'><b>100 лучших книг</b></a></td>
+							<td class='menu-item'><a href='/add_item.php'  title='Добавить книгу'><b>Добавить книгу</b></a></td>
+							<td class='menu-item'><a href='/start_vote.php'  title='Проголосовать за книги из списка лучших книг всех времен'><b>Проголосовать</b></a></td>
+							<td class='menu-item'><a href='/index.php?main_list=0' class='notmain' title='Список книг&ndash;кандидатов на включение в основной список лучших'><b>Список кандидатов</b></a></td>
+							<td class='menu-item'><a href='/selection_wizard.php' class='notmain' title='Сервис подбора лучших книг по вашим интересам'><b>Что почитать?</b></a></td>
+							<td class='menu-item'><a href='/names.php' class='notmain' title='Лучшие писатели'>Лучшие писатели</a></td>
+							<td class='menu-item'><a href='/news.php' class='notmain' title='Новости'>Новости</a></td>
+							<td class='menu-item'><a href='/ratings.php' class='notmain' title='Другие литературные рейтинги и топы книг'>Другие рейтинги книг</a></td>
+							<td class='menu-item'><a href='/recommended.php' class='notmain' title='Тематические списки и подборки интересных книг'>Подборки книг</a></td>
+							<td class='menu-item'><a href='/quizz/quizzes.php'  title='Играть!'><b>Играть!</b></a></td>
+							<td class="menu-search" style="padding-left:5px"><input type="text" maxlength="200" id="searchText" name="q" class="" value="поиск..." onKeyPress="return onEnterKey(event, 'searchText', 'поиск...')" onFocus="clearText('searchText', 'поиск...')" onBlur="setText('searchText', 'поиск...')"></td>
+							<td><a href="javascript:doSearch('searchText', 'searchForm', 'поиск...')"><img src="/img/icon-search.gif" width="14" height="14" alt="Найти" title="Найти" style="border: 0px"></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="/img/menu-shadow.png" height="39" class="iePNG" style="width: 100%" alt="">
+            </td>
+		</tr>
+	</table>
+	</form>
+
+    <div id="reportError" title="Сообщить об ошибке" style="display:none" >
+        <p>Email для обратной связи (необязательно)</p>
+        <input type="text" id="errorReportEmail"><br>
+        <p>Опишите замеченную на этой странице ошибку/неточность в форме ниже</p>
+        <textarea id="errorReportText" rows="3" cols="20"></textarea><br><br>
+        <input type="button" value="Ok" onclick="sendError()">&nbsp;
+        <input type="button" value="Отмена" onclick="$('#reportError').dialog('close')">
+    </div>
+
+    <table class="table-main">
+<tr>
+    <td colspan="2" class="col-adv">
+<!-- Yandex.RTB R-A-102592-4 -->
+<div id="yandex_rtb_R-A-102592-4"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-4",
+                renderTo: "yandex_rtb_R-A-102592-4",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+	</td>
+	<td class="col-intro-adv">
+    </td>
+</tr>
+        <tr>
+            <td class="col-logo">
+                <br>&#8592; <a href="index.php" class="menu">На главную</a>
+            </td>
+            <td class="col-intro" style="text-align: right">&nbsp;</td>
+            <td style="padding-left:25px"></td>
+        </tr>
+        <tr itemscope itemtype="http://schema.org/Book" style="vertical-align: top">
+            <td colspan="2" class="col-content">
+
+                <h1 itemprop="name">1984</h1>
+
+                <table class="table-bookinfo">
+                    <tr  style="vertical-align: top">
+                        <td rowspan="11" class="bookinfo-pic">
+                            <a href='pictures/books/1984.jpg'><img itemprop='image' src='pictures/books/1984.jpg' class='bookinfo-preview' alt="Джордж Оруэлл 1984" /></a><br/><a href='pictures/books/1984.jpg'><img src='img/icon-zoom.gif' class='icon-zoom' alt='Увеличить'/>Увеличить</a>                        </td>
+                        <td class="bookinfo-col-head">Автор:</td>
+                        <td class="bookinfo-col-text">
+                            <a href='name_info.php?id=33' itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">Джордж Оруэлл</span>                            </a>
+                        </td>
+                    </tr>
+                            <tr class='chet'>
+                                <td class="bookinfo-col-head">Оригинальное название:</td>
+                                <td class="bookinfo-col-text" itemprop="translationOfWork" itemscope itemtype="http://schema.org/CreativeWork">
+                            <span itemprop="name">Nineteen Eighty-Four</span>                                </td>
+                            </tr>
+                    <tr >
+                        <td class="bookinfo-col-head">Метки:</td>
+                        <td class="bookinfo-col-text"><a href='index.php?tag_id=21'>Антиутопия</a><meta itemprop="genre" content="Антиутопия">, <a href='index.php?tag_id=1'>Классика</a><meta itemprop="genre" content="Классика">, <a href='index.php?tag_id=12'>Роман</a><meta itemprop="genre" content="Роман"></td>
+                    </tr>
+                    <tr class='chet'>
+                        <td class="bookinfo-col-head">Язык оригинала:</td>
+                        <td class="bookinfo-col-text">
+<a href='index.php?lang_id=2' title='Английский'>Английский</a>                        </td>
+                    </tr>
+                    <tr >
+                        <td class="bookinfo-col-head">Год:</td>
+                        <td class="bookinfo-col-text" itemprop="datePublished">1947-1948</td>
+                    </tr>
+                    <tr class='chet'>
+                        <td class="bookinfo-col-head">Входит в основной список:</td>
+                        <td class="bookinfo-col-text">Да</td>
+                    </tr>
+                            <tr >
+                                <td class="bookinfo-col-head">Купить и скачать:
+                                </td>
+                                <td class="bookinfo-col-text">
+                                    <strong><a href="http://www.litres.ru/dzhordzh-oruell/1984/?lfrom=18645073">Купить и скачать книгу >>></a></strong>
+                                </td>
+                            </tr>
+                            <tr class='chet'>
+                                <td class="bookinfo-col-head">Скачать ознакомительный фрагмент:
+                                </td>
+                                <td class="bookinfo-col-text" id="preview-litres">
+        Загрузка...                                </td>
+                            </tr>
+                            <tr >
+                                <td class="bookinfo-col-head">Читать ознакомительный фрагмент:
+                                </td>
+                                <td class="bookinfo-col-text" id="read-preview-litres">
+                            Загрузка...                                </td>
+                            </tr>
+                    <tr class='chet'>
+                        <td colspan="2">
+                            <p><b>Описание:</b></p>
+                            <p itemprop="description">«Последние десять лет я больше всего хотел превратить политические писания в искусство», — сказал Оруэлл в 1946 году, и до нынешних дней его книги и статьи убедительно показывают, каким может стать наш мир. Большой Брат по-прежнему не смыкает глаз, а некоторые равные — равнее прочих…</p>
+                            <div id="see-also"></div>
+                        </td>
+                    </tr>
+                </table>
+                    <h2>Цитата:</h2>
+
+                    <table class="table-quote">
+                        <tr>
+                            <td class="quote-l">&laquo;</td>
+                            <td class="quote-t">
+                                <span itemprop="citation">
+                                    Был холодный ясный апрельский день, и часы пробили тринадцать.  Уткнув подбородок  в  грудь, чтобы спастись от злого ветра, Уинстон Смит торопливо шмыгнул за стеклянную дверь  жилого  дома  &quot;Победа&quot;, но все-таки впустил за собой вихрь зернистой пыли.<br><br>В вестибюле пахло вареной капустой и старыми половиками. Против  входа на  стене  висел  цветной плакат, слишком большой для помещения. На плакате было изображено громадное, больше  метра  в  ширину, лицо, -- лицо человека лет  сорока  пяти,  с  густыми  черными   усами,   грубое,   но   по-мужски привлекательное.  Уинстон  направился  к  лестнице.  К  лифту  не  стоило и подходить. Он даже в  лучшие  времена  редко  работал,  а теперь, в дневное время,  электричество  вообще  отключали.  Действовал  режим  экономии   -- готовились к Неделе ненависти. Уинстону предстояло одолеть семь маршей; ему шел  сороковой  год,  над  щиколоткой  у  него  была  варикозная  язва:  он поднимался  медленно  и несколько раз останавливался передохнуть. На каждой площадке со стены глядело все  то  же  лицо. Портрет был выполнен так, что, куда бы ты ни стал, глаза тебя не отпускали. СТАРШИЙ БРАТ СМОТРИТ НА  ТЕБЯ, -- гласила подпись.<br><br>В   квартире  сочный  голос  что-то  говорил  о  производстве  чугуна, зачитывал цифры.  Голос  шел  из  заделанной  в  правую стену продолговатой металлической пластины, похожей на мутное зеркало. Уинстон повернул  ручку, голос ослаб, но речь по-прежнему звучала внятно. Аппарат этот (он назывался телекран)  притушить  было можно, полностью же выключить -- нельзя. Уинстон отошел к окну; невысокий тщедушный  человек,  он казался еще более щуплым в синем форменном комбинезоне партийца. Волосы у него были совсем светлые,  а румяное лицо шелушилось от скверного мыла, тупых лезвий и холода только что кончившейся зимы.<br><br>Мир  снаружи,  за  закрытыми  окнами,  дышал холодом. Ветер закручивал спиралями пыль и обрывки бумаги; и,  хотя светило солнце, а небо было резко голубым, все в городе выглядело бесцветным  --  кроме  расклеенных  повсюду плакатов.  С  каждого  заметного  угла  смотрело  лицо  черноусого.  С дома напротив тоже. СТАРШИЙ БРАТ СМОТРИТ НА  ТЕБЯ, -- говорила подпись, и темные глаза глядели в глаза Уинстону. Внизу,  над  тротуаром  трепался  на  ветру плакат  с  оторванным  углом,  то  пряча,  то  открывая единственное слово: АНГСОЦ. Вдалеке между крышами  скользнул  вертолет, завис на мгновение, как трупная муха, и по кривой унесся прочь. Это полицейский патруль  заглядывал людям в окна. Но патрули в счет не шли. В счет шла только полиция мыслей.<br>                                </span>
+                                        <br><br>
+                                        <strong>
+                                            <a href="http://www.litres.ru/dzhordzh-oruell/1984/?lfrom=18645073">Купить и скачать книгу >>></a>
+                                        </strong>
+                            </td>
+                            <td class="quote-r">&raquo;</td>
+                        </tr>
+                    </table>
+                 <h2>
+                         <a href="comments.php?id=47" class="no-vis">Отзывы (31)</a>
+                 </h2>
+
+                <table class="table-quote">
+                    <tr>
+                        <td class="quote-l">&nbsp;</td>
+                        <td class="quote-t">
+                                 <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=47#c16025" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Серж</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2021-05-27">
+                                            <small style="white-space: nowrap;">27.05.2021</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=47#c16025">
+                                            <span itemprop="reviewBody">И до этого сайта кремлеботы добрались</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=47#c16023" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Сергей</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2021-05-26">
+                                            <small style="white-space: nowrap;">26.05.2021</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=47#c16023">
+                                            <span itemprop="reviewBody">Смешно. Да, СССР был тоталитарным государством. А Оруэлл говорил, что его книга ИМЕННО о 
+тоталитаризме в СССР? А кто ему это приписывает. Не те ли, кто маскирует практически полный 
+тоталитаризм современного Запада? Оруэлл видел, как растет тоталитаризм именно в странах Запада. 
+Он видел, как на смену демократии там приходит тотальный контроль за личностью. Типичный пример 
+двойных стандартов англосаксов и тех, кто под ними. Один человек поразил меня, загадав загадку с 
+тут же приведенным ответом: "Исходные данные для загадки: Некий молодой человек приезжает без 
+гроша (точнее, с единственной монетой)  в одну из лучших  столиц мира. Он живет в гостинице-
+таверне. Требует и получает хорошее питание и вино, не платит ни за еду, ни за вино, ни за 
+проживание. Да еще и трахает жену трактирщика. Вопрос/загадка:  Кто этот негодяй? Кто эта 
+неблагодарная свинья, которая жрет, с*ет, буянит, наставляет рога благодетелю, который его терпит? 
+Ответ -  Вселенский взрыв! Это не исчадие ада, не гадкое подлое существо... Это - Благородный 
+Д'Артаньян! а человек, кому в вину можно поставить только  то, что исчерпав все имеющиеся у него, 
+слабого, средства восстановить справедливость, он настучал на своего обидчика -  это Подлейший 
+Бонасье!  Вот в этом - все двуличие Запада.</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=47#c16022" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Михаил Петрович</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2021-05-19">
+                                            <small style="white-space: nowrap;">19.05.2021</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=47#c16022">
+                                            <span itemprop="reviewBody">Великая книга! Она показывает, как опасен тоталитаризм! Тоталитарный СССР не печатал эту книгу, 
+только написали поганый отзыв о книге в "Литературке". И только с началом перестройки книга была 
+напечатана в журнале "Новый мир".</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=47#c16021" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Ольга</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2021-05-18">
+                                            <small style="white-space: nowrap;">18.05.2021</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=47#c16021">
+                                            <span itemprop="reviewBody">Предыдущий рецензент не понимает гениальности этой кинги. Вероятно, он тоскует по совку. Спрашивает, 
+как при тоталитаризме победили фашистов. А так и победили на энтузиазме, в патриотическом порыве! И 
+коммуняки тут ни при чем, победили без коммунисти иделогии. Но книга Оруэлла великая! Она 
+предупреждает всех о том, как страшен тоталитаризм!</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=47#c16016" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Борис</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2021-04-28">
+                                            <small style="white-space: nowrap;">28.04.2021</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=47#c16016">
+                                            <span itemprop="reviewBody">Меня одного интересует,почему глупцы считают,что это про СССР? Настолько угнетенные и фанатичные 
+люди разве могли выиграть войну? Гитлер пробовал с фанатиками, но не получилось :при первых же 
+неудачах фанатизм пропадает!
+Читая ваши комментарии я превращаюсь в Уве -идиоты кругом! Думайте своей головой,почему такой 
+беспросветный мрак продвигается на западе? Чтобы к этому готовить народ. Я бы вообще такую 
+безысходность запретил.всегда есть выход и возможность исправить и чего -то достичь. 
+Не теряйте надежду и все лучшее впереди.все зависит от нас</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=47#c15971" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Евгений</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2021-01-14">
+                                            <small style="white-space: nowrap;">14.01.2021</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=47#c15971">
+                                            <span itemprop="reviewBody">К предыдущему отзыву - грош цена человеку, способному "разрушиться" от действительно мрачной и 
+безысходной, но честной и мудрой книги. 
+Преступны люди, называющие не понятые ими книги "преступными".
+После Второй мировой войны каждый мыслящий человек, не зашоренный идеологиями, испытывал 
+безысходность от меры сотворенного во имя этих идеологий зла.
+Умирающий Оруэлл в финальной своей книге пытался предупредить, и прежде всего, соотечественников-
+англичан (действие книги происходит в будущей Англии), многие из которых тогда были охвачены 
+прокоммунистической эйфорией, к чему их может привести это увлечение.
+Но главное в книге не это - Оруэлл на своем личном опыте пережил и гениально показал, как слаб и 
+беззащитен человек, пытающийся сохранить в себе человека в окружающем угаре тоталитаризма. 
+Великая гуманистическая книга!</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=47#c15970" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Энжи</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2021-01-12">
+                                            <small style="white-space: nowrap;">12.01.2021</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=47#c15970">
+                                            <span itemprop="reviewBody">Сплошной мрак от этой книги. Я бы отнесла эту книгу к категорие разрушающей человека литературы. 
+Если автор разочарован во всех идеологиях (особенно явно в советской идеологии), то прежде чем 
+писать, придумал бы свою идеологию, ведущую в светлое будущее. На мой взгляд такая литература 
+преступна и внушает человеку безысходность.</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            <p class="review-add">
+                                    <a href='comments.php?id=47'>Все отзывы&nbsp;>>></a><br><br>
+                                <a href='add_comment.php?item_id=47'>Добавить отзыв</a>&nbsp;
+                                <img src='img/add-review.gif' width='10' height='10' alt='' style='border: 0px; margin: 0px 5px'><br><br>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="col-right" rowspan="2">
+                <a href="javascript:void(0)" onclick="$('#reportError').dialog()"><i>Сообщить об ошибке</i></a>
+                <br><br>
+                <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<table style="width: 300px; margin-left: -5px;">
+	<tr>
+		<td>
+			<div class="fb-like" data-href="http://100bestbooks.ru" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+		</td>
+		<td>
+			<div id="vk_like"></div>
+			<script type="text/javascript">
+			VK.Widgets.Like("vk_like", {type: "button", height: 20});
+			</script>
+		</td>
+	</tr>
+</table>
+<br>                <div class="block-header-stat">
+                    <div class="header">
+                        Статистика                    </div>
+                </div>
+                <br style="clear: both;">
+                <div class="block-statistics" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <meta itemprop="bestRating" content="5">
+                    <meta itemprop="worstRating" content="-3">
+                    <meta itemprop="reviewCount" content="31">
+                    <span class="t-dgray">Место в списке:&nbsp;<b>62</b></span>
+                    <br>
+                    <span class="t-dgray">Баллы:&nbsp;<b>6682</b></span>
+                    <br>
+                    <span class="t-dgray">Средний балл:&nbsp;<b><span itemprop='ratingValue'>1.06</span></b></span>
+                    <br>
+                    <span class="t-dgray">Проголосовало:&nbsp;<b><span itemprop='ratingCount'>6287</span>&nbsp;человек</b></span>
+                    <br>
+                    <span class="t-dgray">Голосов за удаление:&nbsp;<b>760</b></span>
+                    <br>
+
+                    <div class="block-stat-more">
+                                <div class="stat-line-1" style="width: 36%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">2234&nbsp;человека&nbsp;поставили&nbsp;5</div>
+                                <div class="stat-line-2" style="width: 5%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">294&nbsp;человека&nbsp;поставили&nbsp;4</div>
+                                <div class="stat-line-3" style="width: 7%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">410&nbsp;человек&nbsp;поставили&nbsp;3</div>
+                                <div class="stat-line-4" style="width: 4%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">191&nbsp;человек&nbsp;поставили&nbsp;2</div>
+                                <div class="stat-line-5" style="width: 5%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">273&nbsp;человека&nbsp;поставили&nbsp;1</div>
+                                <div class="stat-line-6" style="width: 7%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">419&nbsp;человек&nbsp;поставили&nbsp;-1</div>
+                                <div class="stat-line-7" style="width: 5%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">268&nbsp;человек&nbsp;поставили&nbsp;-2</div>
+                                <div class="stat-line-8" style="width: 35%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">2198&nbsp;человек&nbsp;поставили&nbsp;-3</div>
+                    </div>
+                </div>
+
+                                <div class="right-column-item">
+<div class="buy-wrapper">
+<script type="text/topadvert">
+load_event: page_load
+feed_id: 4113
+pattern_id: 1296
+format: 2
+book_author: Джордж Оруэллbook_name: 1984</script><script type="text/javascript" charset="utf-8" defer="defer" async="async" src="https://loader.adrelayer.com/load.js"></script>
+<script type="text/javascript" charset="utf-8" defer="defer" async="async" src="https://cainterbar.affiler.trade/bliminiate.js"></script>
+<!--div class="block-header">
+	<div class="header" style="display:none" id="BuyHdr">Купить</div>
+</div>
+<br clear="all"><br clear="all"-->
+</div>
+</div>
+
+<div class="right-column-item">
+<div class="buy-wrapper">
+<div class="kpoisk" data-title="1984" data-author="Джордж Оруэлл"></div>
+<script src="https://knigopoisk.com/partner/script/18.js" async></script>
+</div>
+</div>
+                <div class="block-header">
+                    <div class="header-questions">
+Квиз&nbsp;(0)                    </div>
+                </div>
+                <br>
+                <div class="block-notice-h">
+                        <span>Нет вопросов по книге Джордж Оруэлл &laquo;1984&raquo;</span>
+                        <br>
+                        <a href="post_question.php?item_id=47" class="no-vis">
+                            Отправить свой вопрос >>>                        </a>
+                </div>
+                <script type="text/javascript" src="script/position.js"></script>
+<div class="right-column-item" id="adv-block-fixed">
+<!-- Yandex.RTB R-A-102592-7 -->
+<div id="yandex_rtb_R-A-102592-7"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-7",
+                renderTo: "yandex_rtb_R-A-102592-7",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+</div>
+
+
+
+
+
+
+                <a href="javascript:void(0)" onclick="$('#reportError').dialog()"><i>Сообщить об ошибке</i></a>
+            </td>
+        </tr>
+        <tr>
+    <td colspan="2" style="padding-left:50px; padding-top:20px">
+        <!-- Yandex.RTB R-A-102592-5 -->
+<div id="yandex_rtb_R-A-102592-5"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-5",
+                renderTo: "yandex_rtb_R-A-102592-5",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+
+        <br><br>
+        <div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "728", attach: "*"});
+</script>
+<br>        
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td colspan="3" class="bottom">
+        <div class="bottom-line"><img src="/img/p.gif" width="1" height="2" alt="" /></div>
+    </td>
+</tr>
+<tr style="vertical-align: top">
+    <td class="bottom-copyright">
+        &copy; 2009&ndash;2026 <a href="/index.php">&laquo;100 лучших книг&raquo;</a>&nbsp;
+        При  частичном или полном цитировании материалов сайта ссылка на <a href='http://100bestbooks.ru'>100bestbooks.ru</a> обязательна<br>
+        <script type="text/javascript">
+                var login  = 'admin';
+                var srvr = '100bestbooks.ru';
+                var addr  = login+'@'+srvr;
+                var url = 'mailto:'+ addr;
+                document.write('<a href="'+url+'">'+ 'Напишите нам' +'</a>');
+        </script>
+        &nbsp;|&nbsp;<a href="/about.php">О&nbsp;проекте</a>
+    </td>
+    <td>
+
+<!-- Top100 (Kraken) Counter -->
+<script>
+    (function (w, d, c) {
+    (w[c] = w[c] || []).push(function() {
+        var options = {
+            project: 1938717,
+        };
+        try {
+            w.top100Counter = new top100(options);
+        } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src =
+    (d.location.protocol == "https:" ? "https:" : "http:") +
+    "//st.top100.ru/top100/top100.js";
+
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(window, document, "_top100q");
+</script>
+<noscript>
+  <img src="//counter.rambler.ru/top100.cnt?pid=1938717" alt="Топ-100" />
+</noscript>
+<!-- END Top100 (Kraken) Counter -->
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t14.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "1751161", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=1751161;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<!-- Rating@Mail.ru logo -->
+<a href="http://top.mail.ru/jump?from=1751161">
+<img src="//top-fwz1.mail.ru/counter?id=1751161;t=487;l=1"
+style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a>
+<!-- //Rating@Mail.ru logo -->
+
+<!--Openstat-->
+<span id="openstat2058766"></span><script type="text/javascript"> var openstat = { counter: 2058766, image: 5012, next: openstat }; document.write(unescape("%3Cscript%20src=%22http" +
+(("https:" == document.location.protocol) ? "s" : "") +
+"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E")); </script>
+<!--Openstat-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15391107-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15391107-1');
+</script>
+
+
+
+        </td>
+        <td class="bottom-xpanda">
+<!-- Yandex.Metrika informer -->
+<a href="http://metrika.yandex.ru/stat/?id=18692437&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/18692437/3_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:18692437,type:0,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter18692437 = new Ya.Metrika({id:18692437,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/18692437" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    </td>
+</tr>
+    </table>
+</body>
+</html>

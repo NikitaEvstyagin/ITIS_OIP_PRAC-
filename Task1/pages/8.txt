@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="ru">
+<head>
+<title>Илья Ильф, Евгений Петров Золотой теленок в списке 100 лучших книг всех времен</title>
+<meta charset="UTF-8" />
+<meta name="keywords" content="сто 100 лучших книг всех времен рейтинг самые лучшие книги мира что почитать" />
+<meta name="description" content="Илья Ильф, Евгений Петров Золотой теленок в списке 100 лучших книг всех времен. Рейтинг, отзывы, цитата, описание. Онлайн голосование за лучшие книги всех времен" />
+<meta name=viewport content="width=device-width, initial-scale=1.0" />
+<meta property="og:title" content="Илья Ильф, Евгений Петров Золотой теленок в списке 100 лучших книг всех времен" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.100bestbooks.ru/item_info.php?id=27" />
+<meta property="og:image" content="http://www.100bestbooks.ru/img/logo-fb.jpg" />
+<meta property="og:description" content="Илья Ильф, Евгений Петров Золотой теленок в списке 100 лучших книг всех времен. Рейтинг, отзывы, цитата, описание. Онлайн голосование за лучшие книги всех времен" />
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.100bestbooks.ru/m/item_info.php?id=27" >
+<link rel="stylesheet" href="script/jquery-ui-1.11.4.books/jquery-ui.min.css" type="text/css"/>
+<meta name='yandex-verification' content='43b0aadda432aeaa'>
+<meta name="google-site-verification" content="D6VqsrdYX-SYB1yMv6CoXDzWfkWQRj5DPNODuy2ALcA">
+<link rel="stylesheet" type="text/css" href="/style/100bbooks.css">
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+<script type="text/javascript">
+  VK.init({apiId: 5286888, onlyWidgets: true});
+</script>
+<script src="script/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="script/jquery-ui-1.11.4.books/jquery-ui.min.js " type="text/javascript"></script>
+ 
+<script data-ad-client="ca-pub-4958342012590043" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <script type="text/javascript">
+        function sendError() {
+            var txt = $.trim($("#errorReportText").val());
+            var email = $.trim($("#errorReportEmail").val());
+            if (txt == "") {
+                alert("Опишите замеченную ошибку/неточность.");
+                return;
+            }
+            $.post("report_error.php?item_id=27", {problem: txt, email: email});
+            alert("Ваше сообщение отправлено. Спасибо!");
+            $('#reportError').dialog('close');
+        }
+
+        function onLoad() {
+                $.ajax({
+                    url: "https://robot.litres.ru/pages/catalit_browser/",
+                    data: {'search': ' Илья Ильф, Евгений Петров Золотой теленок'},
+                    type: "POST",
+                    dataType: "XML",
+                    success: function (dataXML) {
+                        var okDaB = false;
+                        var okPreview = false;
+                        if (dataXML.childElementCount > 0 && dataXML.firstChild.childElementCount > 0) {
+                            var book = $(dataXML).find("fb2-book");
+                            if (book != null) {
+                                var bookId = book.first().attr("hub_id");
+                                if (bookId != null) {
+                                    $('#see-also').html('<div class="litres_widget_body" style="width: 600px; height: 300px;"></div>');
+                                    var litres_widget_book_view_id = bookId;
+                                    var litres_widget_lfrom = 18645073;
+                                    (function(d, t){
+                                        var lw = d.createElement(t),s = d.getElementsByTagName(t)[0];
+                                        lw.async = 1;
+                                        lw.src = "https://www.litres.ru/static/widgets/js/widget.js";
+                                        s.parentNode.insertBefore(lw, s);
+                                    })(document, "script");
+                                }
+                            }
+                        }
+                    }
+                });
+        }
+    </script>
+
+	<div style="background: url('/img/fon-top.jpg') top left repeat-x;">
+		<img src="/img/p.gif" width="52" height="117" alt="" style="border: 0px">
+	</div>
+	<div class="wall">
+		<img src="/img/wall.png" width="400" height="400" alt="" class="iePNG">
+	</div>
+	<div style="z-index:100;background-color: black; color: white; position:absolute; top: 3px; left:50px; padding: 3px 10px 3px 10px; font-family: Arial">
+		<a href="/m/index.php" title="Мобильная версия" class="mobile">Мобильная версия</a>
+	</div>
+	<script type="text/javascript" src="/script/utils.js"></script>
+	<form action="/search.php" method="post" name="searchForm">
+	<input type="hidden" name="back" value="0">
+	<table class="table-menu">
+		<tr>
+			<td class="col-mainmenu">
+				<div class="mainmenu">
+					<table style="border-spacing: 0px; border: 0px; padding: 0px; width:100%">
+						<tr>
+							<td><img src="/img/p.gif" width="43" height="14" alt=""></td>
+							<td class='menu-item'><a href='/index.php?main_list=1'  title='На главную'><b>100 лучших книг</b></a></td>
+							<td class='menu-item'><a href='/add_item.php'  title='Добавить книгу'><b>Добавить книгу</b></a></td>
+							<td class='menu-item'><a href='/start_vote.php'  title='Проголосовать за книги из списка лучших книг всех времен'><b>Проголосовать</b></a></td>
+							<td class='menu-item'><a href='/index.php?main_list=0' class='notmain' title='Список книг&ndash;кандидатов на включение в основной список лучших'><b>Список кандидатов</b></a></td>
+							<td class='menu-item'><a href='/selection_wizard.php' class='notmain' title='Сервис подбора лучших книг по вашим интересам'><b>Что почитать?</b></a></td>
+							<td class='menu-item'><a href='/names.php' class='notmain' title='Лучшие писатели'>Лучшие писатели</a></td>
+							<td class='menu-item'><a href='/news.php' class='notmain' title='Новости'>Новости</a></td>
+							<td class='menu-item'><a href='/ratings.php' class='notmain' title='Другие литературные рейтинги и топы книг'>Другие рейтинги книг</a></td>
+							<td class='menu-item'><a href='/recommended.php' class='notmain' title='Тематические списки и подборки интересных книг'>Подборки книг</a></td>
+							<td class='menu-item'><a href='/quizz/quizzes.php'  title='Играть!'><b>Играть!</b></a></td>
+							<td class="menu-search" style="padding-left:5px"><input type="text" maxlength="200" id="searchText" name="q" class="" value="поиск..." onKeyPress="return onEnterKey(event, 'searchText', 'поиск...')" onFocus="clearText('searchText', 'поиск...')" onBlur="setText('searchText', 'поиск...')"></td>
+							<td><a href="javascript:doSearch('searchText', 'searchForm', 'поиск...')"><img src="/img/icon-search.gif" width="14" height="14" alt="Найти" title="Найти" style="border: 0px"></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="/img/menu-shadow.png" height="39" class="iePNG" style="width: 100%" alt="">
+            </td>
+		</tr>
+	</table>
+	</form>
+
+    <div id="reportError" title="Сообщить об ошибке" style="display:none" >
+        <p>Email для обратной связи (необязательно)</p>
+        <input type="text" id="errorReportEmail"><br>
+        <p>Опишите замеченную на этой странице ошибку/неточность в форме ниже</p>
+        <textarea id="errorReportText" rows="3" cols="20"></textarea><br><br>
+        <input type="button" value="Ok" onclick="sendError()">&nbsp;
+        <input type="button" value="Отмена" onclick="$('#reportError').dialog('close')">
+    </div>
+
+    <table class="table-main">
+<tr>
+    <td colspan="2" class="col-adv">
+<!-- Yandex.RTB R-A-102592-4 -->
+<div id="yandex_rtb_R-A-102592-4"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-4",
+                renderTo: "yandex_rtb_R-A-102592-4",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+	</td>
+	<td class="col-intro-adv">
+    </td>
+</tr>
+        <tr>
+            <td class="col-logo">
+                <br>&#8592; <a href="index.php" class="menu">На главную</a>
+            </td>
+            <td class="col-intro" style="text-align: right">&nbsp;</td>
+            <td style="padding-left:25px"></td>
+        </tr>
+        <tr itemscope itemtype="http://schema.org/Book" style="vertical-align: top">
+            <td colspan="2" class="col-content">
+
+                <h1 itemprop="name">Золотой теленок</h1>
+
+                <table class="table-bookinfo">
+                    <tr  style="vertical-align: top">
+                        <td rowspan="11" class="bookinfo-pic">
+                            <a href='pictures/books/zt.jpg '><img itemprop='image' src='pictures/books/zt.jpg ' class='bookinfo-preview' alt="Илья Ильф, Евгений Петров Золотой теленок" /></a><br/><a href='pictures/books/zt.jpg '><img src='img/icon-zoom.gif' class='icon-zoom' alt='Увеличить'/>Увеличить</a>                        </td>
+                        <td class="bookinfo-col-head">Автор:</td>
+                        <td class="bookinfo-col-text">
+                            <a href='name_info.php?id=18' itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">Илья Ильф, Евгений Петров</span>                            </a>
+                        </td>
+                    </tr>
+                            <tr class='chet'>
+                                <td class="bookinfo-col-head">Оригинальное название:</td>
+                                <td class="bookinfo-col-text">Золотой теленок</td>
+                            </tr>
+                    <tr >
+                        <td class="bookinfo-col-head">Метки:</td>
+                        <td class="bookinfo-col-text"><a href='index.php?tag_id=17'>Сатира</a><meta itemprop="genre" content="Сатира">, <a href='index.php?tag_id=10'>Плутовской роман</a><meta itemprop="genre" content="Плутовской роман">, <a href='index.php?tag_id=1'>Классика</a><meta itemprop="genre" content="Классика">, <a href='index.php?tag_id=108'>Юмор</a><meta itemprop="genre" content="Юмор"></td>
+                    </tr>
+                    <tr class='chet'>
+                        <td class="bookinfo-col-head">Язык оригинала:</td>
+                        <td class="bookinfo-col-text">
+<a href='index.php?lang_id=1' title='Русский'>Русский</a>                        </td>
+                    </tr>
+                    <tr >
+                        <td class="bookinfo-col-head">Год:</td>
+                        <td class="bookinfo-col-text" itemprop="datePublished">1931</td>
+                    </tr>
+                    <tr class='chet'>
+                        <td class="bookinfo-col-head">Входит в основной список:</td>
+                        <td class="bookinfo-col-text">Да</td>
+                    </tr>
+                                <tr >
+                                    <td class="bookinfo-col-head">Скачать:
+                                    </td>
+                                    <td class="bookinfo-col-text">
+                                        <link itemprop="bookFormat" href="http://schema.org/EBook">
+                                        <table class='t-check'>
+                                            <tr>
+                                                <td>
+<a href='download_file.php?item_id=27&link=1' title='Скачать книгу в формате doc'><img src='img/doc.jpg' alt='doc'>&nbsp;doc</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a href='download_file.php?item_id=27&link=2' title='Скачать книгу в формате fb2'><img src='img/fb2.jpg' alt='fb2'>&nbsp;fb2</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a href='download_file.php?item_id=27&link=3' title='Скачать книгу в формате pdf'><img src='img/pdf.jpg' alt='pdf'>&nbsp;pdf</a></td>                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class='chet'>
+                                    <td class="bookinfo-col-head">Читать:</td>
+                                    <td class="bookinfo-col-text">
+                                        <strong><a href="read_book.php?item_id=27" title="Читать Илья Ильф, Евгений Петров &laquo;Золотой теленок&raquo;">Читать Илья Ильф, Евгений Петров &laquo;Золотой теленок&raquo; >>></a></strong>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td class="bookinfo-col-head">Авторские права:</td>
+                                    <td class="bookinfo-col-text">
+                                        <small>Все права на все книги на этом сайте безусловно принадлежат их правообладателям. Если публикация книги на сайте нарушает чьи-либо авторские права,                                             <script type="text/javascript">
+                                                var login = 'admin';
+                                                var srvr = '100bestbooks.ru';
+                                                var addr = login + '@' + srvr;
+                                                var url = 'mailto:' + addr;
+                                                document.write('<a href="' + url + '">' + 'сообщите нам' + '</a>');
+                                            </script>
+             об этом и она будет немедленно убрана из публичного доступа                                        </small>
+                                    </td>
+                                </tr>
+                    <tr class='chet'>
+                        <td colspan="2">
+                            <p><b>Описание:</b></p>
+                            <p itemprop="description">Бешеный успех, который обрушился на Ильфа и Петрова после выхода «Двенадцати стульев», побудил соавторов «воскресить» своего героя, сына турецко-подданного Остапа Бендера.<br><br>Блистательная дилогия, если верить самим авторам, — «не выдумка. Выдумать можно было бы и посмешнее». Это энциклопедия советского нэпа, энциклопедия быта первого поколения «шариковых».</p>
+                            <div id="see-also"></div>
+                        </td>
+                    </tr>
+                </table>
+                    <h2>Цитата:</h2>
+
+                    <table class="table-quote">
+                        <tr>
+                            <td class="quote-l">&laquo;</td>
+                            <td class="quote-t">
+                                <span itemprop="citation">
+                                     Пешеходов надо любить. Пешеходы составляют большую часть человечества. Мало того-лучшую его часть. Пешеходы создали мир. Это они построили города, возвели многоэтажные здания, провели канализацию и водопровод, замостили улицы и осветили их электрическими лампами. Это они распространили культуру по всему свету, изобрели книгопечатание, выдумали порох, перебросили мосты через реки, расшифровали египетские иероглифы, ввели в употребление безопасную бритву, уничтожили торговлю рабами и установили, что из бобов сои можно изготовить сто четырнадцать вкусных питательных блюд.<br><br>И когда все было готово, когда родная планета приняла сравнительно благоустроенный вид, появились автомобилисты.<br><br>Надо заметить, что автомобиль тоже был изобретен пешеходами. Но автомобилисты об этом как-то сразу забыли. Кротких и умных пешеходов стали давить. Улицы, созданные пешеходами, перешли во власть автомобилистов. Мостовые стали вдвое шире, тротуары сузились до размера табачной бандероли. И пешеходы стали испуганно жаться к стенам домов.<br><br>– В большом городе пешеходы ведут мученическую жизнь. Для них ввели некое транспортное гетто. Им разрешают переходить улицы только на перекрестках, то есть именно в тех местах, где движение сильнее всего и где волосок, на котором обычно висит жизнь пешехода, легче всего оборвать.                                 </span>
+                                        <br><br>
+                                        <strong>
+                                            <a href="read_book.php?item_id=27" title="Читать Илья Ильф, Евгений Петров Золотой теленок">Илья Ильф, Евгений Петров &laquo;Золотой теленок&raquo; полный текст >>></a>
+                                        </strong>
+                            </td>
+                            <td class="quote-r">&raquo;</td>
+                        </tr>
+                    </table>
+                 <h2>
+                         <a href="comments.php?id=27" class="no-vis">Отзывы (12)</a>
+                 </h2>
+
+                <table class="table-quote">
+                    <tr>
+                        <td class="quote-l">&nbsp;</td>
+                        <td class="quote-t">
+                                 <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=27#c16241" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Гайдар</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2025-04-06">
+                                            <small style="white-space: nowrap;">06.04.2025</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=27#c16241">
+                                            <span itemprop="reviewBody">Евгений -- совок. Век подобных вышел. Почему вы ещё здесь, Евгений, зачем?</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=27#c16240" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Gulliver</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2025-04-05">
+                                            <small style="white-space: nowrap;">05.04.2025</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=27#c16240">
+                                            <span itemprop="reviewBody">Евгений- имбецил. А книга эта - лучшее, что родила советская литература</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=27#c16228" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Евгений</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2025-03-12">
+                                            <small style="white-space: nowrap;">12.03.2025</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=27#c16228">
+                                            <span itemprop="reviewBody">Редкостная галиматья.В художественном плане абсолютно нулевое дешёвое чтиво для дебилов. Не 
+рекомендую тратить время на клевету и инсинуации на реально происходящие события/История рэкетного 
+наезда умиляет только деградантов</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=27#c12133" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Дед Пахом</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-09-14">
+                                            <small style="white-space: nowrap;">14.09.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=27#c12133">
+                                            <span itemprop="reviewBody">Страшная книга. О том, как в огромной стране ценность каждого отдельного человека равна нулю. Только представители "коллективов" вкушают прелести жизни, только за стадным большинством задекларировано право на нормальную жизнь. ... А "частное лицо" ничего не может сделать, ни дом посторить, ни автомобиль купить, да чего там - не может реализовать себя и свои возможности, как личности... Неужели эти жуткие тёмные времена опять возвращаются?</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=27#c12121" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Пафусик</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-09-12">
+                                            <small style="white-space: nowrap;">12.09.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=27#c12121">
+                                            <span itemprop="reviewBody">Величайшая книга!</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=27#c12007" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Теодоро</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-08-10">
+                                            <small style="white-space: nowrap;">10.08.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=27#c12007">
+                                            <span itemprop="reviewBody">Как странно, что этот ПОТРЯСАЮЩИЙ роман так низко в здешнем рейтинге... А ведь "Золотой телёнок" явно лучше, чем "12 стульев" - более философская, всеобъемлющая книга...</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=27#c11858" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Дед Пахом</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-07-17">
+                                            <small style="white-space: nowrap;">17.07.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=27#c11858">
+                                            <span itemprop="reviewBody">Я эту книгу практически наизусть знаю! :) Великая Книга!!!</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            <p class="review-add">
+                                    <a href='comments.php?id=27'>Все отзывы&nbsp;>>></a><br><br>
+                                <a href='add_comment.php?item_id=27'>Добавить отзыв</a>&nbsp;
+                                <img src='img/add-review.gif' width='10' height='10' alt='' style='border: 0px; margin: 0px 5px'><br><br>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="col-right" rowspan="2">
+                <a href="javascript:void(0)" onclick="$('#reportError').dialog()"><i>Сообщить об ошибке</i></a>
+                <br><br>
+                <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<table style="width: 300px; margin-left: -5px;">
+	<tr>
+		<td>
+			<div class="fb-like" data-href="http://100bestbooks.ru" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+		</td>
+		<td>
+			<div id="vk_like"></div>
+			<script type="text/javascript">
+			VK.Widgets.Like("vk_like", {type: "button", height: 20});
+			</script>
+		</td>
+	</tr>
+</table>
+<br>                <div class="block-header-stat">
+                    <div class="header">
+                        Статистика                    </div>
+                </div>
+                <br style="clear: both;">
+                <div class="block-statistics" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <meta itemprop="bestRating" content="5">
+                    <meta itemprop="worstRating" content="-3">
+                    <meta itemprop="reviewCount" content="12">
+                    <span class="t-dgray">Место в списке:&nbsp;<b>7</b></span>
+                    <br>
+                    <span class="t-dgray">Баллы:&nbsp;<b>15603</b></span>
+                    <br>
+                    <span class="t-dgray">Средний балл:&nbsp;<b><span itemprop='ratingValue'>2.27</span></b></span>
+                    <br>
+                    <span class="t-dgray">Проголосовало:&nbsp;<b><span itemprop='ratingCount'>6852</span>&nbsp;человека</b></span>
+                    <br>
+                    <span class="t-dgray">Голосов за удаление:&nbsp;<b>310</b></span>
+                    <br>
+
+                    <div class="block-stat-more">
+                                <div class="stat-line-1" style="width: 49%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">3349&nbsp;человек&nbsp;поставили&nbsp;5</div>
+                                <div class="stat-line-2" style="width: 4%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">216&nbsp;человек&nbsp;поставили&nbsp;4</div>
+                                <div class="stat-line-3" style="width: 5%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">328&nbsp;человек&nbsp;поставили&nbsp;3</div>
+                                <div class="stat-line-4" style="width: 6%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">387&nbsp;человек&nbsp;поставили&nbsp;2</div>
+                                <div class="stat-line-5" style="width: 10%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">672&nbsp;человека&nbsp;поставили&nbsp;1</div>
+                                <div class="stat-line-6" style="width: 8%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">534&nbsp;человека&nbsp;поставили&nbsp;-1</div>
+                                <div class="stat-line-7" style="width: 3%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">196&nbsp;человек&nbsp;поставили&nbsp;-2</div>
+                                <div class="stat-line-8" style="width: 18%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">1170&nbsp;человек&nbsp;поставили&nbsp;-3</div>
+                    </div>
+                </div>
+
+                                <div class="right-column-item">
+<div class="buy-wrapper">
+<script type="text/topadvert">
+load_event: page_load
+feed_id: 4113
+pattern_id: 1296
+format: 2
+book_author: Илья Ильф, Евгений Петровbook_name: Золотой теленок</script><script type="text/javascript" charset="utf-8" defer="defer" async="async" src="https://loader.adrelayer.com/load.js"></script>
+<script type="text/javascript" charset="utf-8" defer="defer" async="async" src="https://cainterbar.affiler.trade/bliminiate.js"></script>
+<!--div class="block-header">
+	<div class="header" style="display:none" id="BuyHdr">Купить</div>
+</div>
+<br clear="all"><br clear="all"-->
+</div>
+</div>
+
+<div class="right-column-item">
+<div class="buy-wrapper">
+<div class="kpoisk" data-title="Золотой теленок" data-author="Илья Ильф, Евгений Петров"></div>
+<script src="https://knigopoisk.com/partner/script/18.js" async></script>
+</div>
+</div>
+                <div class="block-header">
+                    <div class="header-questions">
+Квиз&nbsp;(0)                    </div>
+                </div>
+                <br>
+                <div class="block-notice-h">
+                        <span>Нет вопросов по книге Илья Ильф, Евгений Петров &laquo;Золотой теленок&raquo;</span>
+                        <br>
+                        <a href="post_question.php?item_id=27" class="no-vis">
+                            Отправить свой вопрос >>>                        </a>
+                </div>
+                <script type="text/javascript" src="script/position.js"></script>
+<div class="right-column-item" id="adv-block-fixed">
+<!-- Yandex.RTB R-A-102592-7 -->
+<div id="yandex_rtb_R-A-102592-7"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-7",
+                renderTo: "yandex_rtb_R-A-102592-7",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+</div>
+
+
+
+
+
+
+                <a href="javascript:void(0)" onclick="$('#reportError').dialog()"><i>Сообщить об ошибке</i></a>
+            </td>
+        </tr>
+        <tr>
+    <td colspan="2" style="padding-left:50px; padding-top:20px">
+        <!-- Yandex.RTB R-A-102592-5 -->
+<div id="yandex_rtb_R-A-102592-5"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-5",
+                renderTo: "yandex_rtb_R-A-102592-5",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+
+        <br><br>
+        <div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "728", attach: "*"});
+</script>
+<br>        
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td colspan="3" class="bottom">
+        <div class="bottom-line"><img src="/img/p.gif" width="1" height="2" alt="" /></div>
+    </td>
+</tr>
+<tr style="vertical-align: top">
+    <td class="bottom-copyright">
+        &copy; 2009&ndash;2026 <a href="/index.php">&laquo;100 лучших книг&raquo;</a>&nbsp;
+        При  частичном или полном цитировании материалов сайта ссылка на <a href='http://100bestbooks.ru'>100bestbooks.ru</a> обязательна<br>
+        <script type="text/javascript">
+                var login  = 'admin';
+                var srvr = '100bestbooks.ru';
+                var addr  = login+'@'+srvr;
+                var url = 'mailto:'+ addr;
+                document.write('<a href="'+url+'">'+ 'Напишите нам' +'</a>');
+        </script>
+        &nbsp;|&nbsp;<a href="/about.php">О&nbsp;проекте</a>
+    </td>
+    <td>
+
+<!-- Top100 (Kraken) Counter -->
+<script>
+    (function (w, d, c) {
+    (w[c] = w[c] || []).push(function() {
+        var options = {
+            project: 1938717,
+        };
+        try {
+            w.top100Counter = new top100(options);
+        } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src =
+    (d.location.protocol == "https:" ? "https:" : "http:") +
+    "//st.top100.ru/top100/top100.js";
+
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(window, document, "_top100q");
+</script>
+<noscript>
+  <img src="//counter.rambler.ru/top100.cnt?pid=1938717" alt="Топ-100" />
+</noscript>
+<!-- END Top100 (Kraken) Counter -->
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t14.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "1751161", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=1751161;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<!-- Rating@Mail.ru logo -->
+<a href="http://top.mail.ru/jump?from=1751161">
+<img src="//top-fwz1.mail.ru/counter?id=1751161;t=487;l=1"
+style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a>
+<!-- //Rating@Mail.ru logo -->
+
+<!--Openstat-->
+<span id="openstat2058766"></span><script type="text/javascript"> var openstat = { counter: 2058766, image: 5012, next: openstat }; document.write(unescape("%3Cscript%20src=%22http" +
+(("https:" == document.location.protocol) ? "s" : "") +
+"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E")); </script>
+<!--Openstat-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15391107-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15391107-1');
+</script>
+
+
+
+        </td>
+        <td class="bottom-xpanda">
+<!-- Yandex.Metrika informer -->
+<a href="http://metrika.yandex.ru/stat/?id=18692437&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/18692437/3_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:18692437,type:0,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter18692437 = new Ya.Metrika({id:18692437,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/18692437" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    </td>
+</tr>
+    </table>
+</body>
+</html>

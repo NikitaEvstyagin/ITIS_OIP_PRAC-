@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="ru">
+<head>
+<title>Джек Лондон Белый Клык в списке 100 лучших книг всех времен</title>
+<meta charset="UTF-8" />
+<meta name="keywords" content="сто 100 лучших книг всех времен рейтинг самые лучшие книги мира что почитать" />
+<meta name="description" content="Джек Лондон Белый Клык в списке 100 лучших книг всех времен. Рейтинг, отзывы, цитата, описание. Онлайн голосование за лучшие книги всех времен" />
+<meta name=viewport content="width=device-width, initial-scale=1.0" />
+<meta property="og:title" content="Джек Лондон Белый Клык в списке 100 лучших книг всех времен" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.100bestbooks.ru/item_info.php?id=418" />
+<meta property="og:image" content="http://www.100bestbooks.ru/img/logo-fb.jpg" />
+<meta property="og:description" content="Джек Лондон Белый Клык в списке 100 лучших книг всех времен. Рейтинг, отзывы, цитата, описание. Онлайн голосование за лучшие книги всех времен" />
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.100bestbooks.ru/m/item_info.php?id=418" >
+<link rel="stylesheet" href="script/jquery-ui-1.11.4.books/jquery-ui.min.css" type="text/css"/>
+<meta name='yandex-verification' content='43b0aadda432aeaa'>
+<meta name="google-site-verification" content="D6VqsrdYX-SYB1yMv6CoXDzWfkWQRj5DPNODuy2ALcA">
+<link rel="stylesheet" type="text/css" href="/style/100bbooks.css">
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+<script type="text/javascript">
+  VK.init({apiId: 5286888, onlyWidgets: true});
+</script>
+<script src="script/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="script/jquery-ui-1.11.4.books/jquery-ui.min.js " type="text/javascript"></script>
+ 
+<script data-ad-client="ca-pub-4958342012590043" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <script type="text/javascript">
+        function sendError() {
+            var txt = $.trim($("#errorReportText").val());
+            var email = $.trim($("#errorReportEmail").val());
+            if (txt == "") {
+                alert("Опишите замеченную ошибку/неточность.");
+                return;
+            }
+            $.post("report_error.php?item_id=418", {problem: txt, email: email});
+            alert("Ваше сообщение отправлено. Спасибо!");
+            $('#reportError').dialog('close');
+        }
+
+        function onLoad() {
+                $.ajax({
+                    url: "https://robot.litres.ru/pages/catalit_browser/",
+                    data: {'search': ' Джек Лондон Белый Клык'},
+                    type: "POST",
+                    dataType: "XML",
+                    success: function (dataXML) {
+                        var okDaB = false;
+                        var okPreview = false;
+                        if (dataXML.childElementCount > 0 && dataXML.firstChild.childElementCount > 0) {
+                            var book = $(dataXML).find("fb2-book");
+                            if (book != null) {
+                                var bookId = book.first().attr("hub_id");
+                                if (bookId != null) {
+                                    $('#see-also').html('<div class="litres_widget_body" style="width: 600px; height: 300px;"></div>');
+                                    var litres_widget_book_view_id = bookId;
+                                    var litres_widget_lfrom = 18645073;
+                                    (function(d, t){
+                                        var lw = d.createElement(t),s = d.getElementsByTagName(t)[0];
+                                        lw.async = 1;
+                                        lw.src = "https://www.litres.ru/static/widgets/js/widget.js";
+                                        s.parentNode.insertBefore(lw, s);
+                                    })(document, "script");
+                                }
+                            }
+                        }
+                    }
+                });
+        }
+    </script>
+
+	<div style="background: url('/img/fon-top.jpg') top left repeat-x;">
+		<img src="/img/p.gif" width="52" height="117" alt="" style="border: 0px">
+	</div>
+	<div class="wall">
+		<img src="/img/wall.png" width="400" height="400" alt="" class="iePNG">
+	</div>
+	<div style="z-index:100;background-color: black; color: white; position:absolute; top: 3px; left:50px; padding: 3px 10px 3px 10px; font-family: Arial">
+		<a href="/m/index.php" title="Мобильная версия" class="mobile">Мобильная версия</a>
+	</div>
+	<script type="text/javascript" src="/script/utils.js"></script>
+	<form action="/search.php" method="post" name="searchForm">
+	<input type="hidden" name="back" value="0">
+	<table class="table-menu">
+		<tr>
+			<td class="col-mainmenu">
+				<div class="mainmenu">
+					<table style="border-spacing: 0px; border: 0px; padding: 0px; width:100%">
+						<tr>
+							<td><img src="/img/p.gif" width="43" height="14" alt=""></td>
+							<td class='menu-item'><a href='/index.php?main_list=1'  title='На главную'><b>100 лучших книг</b></a></td>
+							<td class='menu-item'><a href='/add_item.php'  title='Добавить книгу'><b>Добавить книгу</b></a></td>
+							<td class='menu-item'><a href='/start_vote.php'  title='Проголосовать за книги из списка лучших книг всех времен'><b>Проголосовать</b></a></td>
+							<td class='menu-item'><a href='/index.php?main_list=0' class='notmain' title='Список книг&ndash;кандидатов на включение в основной список лучших'><b>Список кандидатов</b></a></td>
+							<td class='menu-item'><a href='/selection_wizard.php' class='notmain' title='Сервис подбора лучших книг по вашим интересам'><b>Что почитать?</b></a></td>
+							<td class='menu-item'><a href='/names.php' class='notmain' title='Лучшие писатели'>Лучшие писатели</a></td>
+							<td class='menu-item'><a href='/news.php' class='notmain' title='Новости'>Новости</a></td>
+							<td class='menu-item'><a href='/ratings.php' class='notmain' title='Другие литературные рейтинги и топы книг'>Другие рейтинги книг</a></td>
+							<td class='menu-item'><a href='/recommended.php' class='notmain' title='Тематические списки и подборки интересных книг'>Подборки книг</a></td>
+							<td class='menu-item'><a href='/quizz/quizzes.php'  title='Играть!'><b>Играть!</b></a></td>
+							<td class="menu-search" style="padding-left:5px"><input type="text" maxlength="200" id="searchText" name="q" class="" value="поиск..." onKeyPress="return onEnterKey(event, 'searchText', 'поиск...')" onFocus="clearText('searchText', 'поиск...')" onBlur="setText('searchText', 'поиск...')"></td>
+							<td><a href="javascript:doSearch('searchText', 'searchForm', 'поиск...')"><img src="/img/icon-search.gif" width="14" height="14" alt="Найти" title="Найти" style="border: 0px"></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="/img/menu-shadow.png" height="39" class="iePNG" style="width: 100%" alt="">
+            </td>
+		</tr>
+	</table>
+	</form>
+
+    <div id="reportError" title="Сообщить об ошибке" style="display:none" >
+        <p>Email для обратной связи (необязательно)</p>
+        <input type="text" id="errorReportEmail"><br>
+        <p>Опишите замеченную на этой странице ошибку/неточность в форме ниже</p>
+        <textarea id="errorReportText" rows="3" cols="20"></textarea><br><br>
+        <input type="button" value="Ok" onclick="sendError()">&nbsp;
+        <input type="button" value="Отмена" onclick="$('#reportError').dialog('close')">
+    </div>
+
+    <table class="table-main">
+<tr>
+    <td colspan="2" class="col-adv">
+<!-- Yandex.RTB R-A-102592-4 -->
+<div id="yandex_rtb_R-A-102592-4"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-4",
+                renderTo: "yandex_rtb_R-A-102592-4",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+	</td>
+	<td class="col-intro-adv">
+    </td>
+</tr>
+        <tr>
+            <td class="col-logo">
+                <br>&#8592; <a href="index.php" class="menu">На главную</a>
+            </td>
+            <td class="col-intro" style="text-align: right">&nbsp;</td>
+            <td style="padding-left:25px"></td>
+        </tr>
+        <tr itemscope itemtype="http://schema.org/Book" style="vertical-align: top">
+            <td colspan="2" class="col-content">
+
+                <h1 itemprop="name">Белый Клык</h1>
+
+                <table class="table-bookinfo">
+                    <tr  style="vertical-align: top">
+                        <td rowspan="11" class="bookinfo-pic">
+                            <a href='pictures/books/whitefang.jpg'><img itemprop='image' src='pictures/books/whitefang.jpg' class='bookinfo-preview' alt="Джек Лондон Белый Клык" /></a><br/><a href='pictures/books/whitefang.jpg'><img src='img/icon-zoom.gif' class='icon-zoom' alt='Увеличить'/>Увеличить</a>                        </td>
+                        <td class="bookinfo-col-head">Автор:</td>
+                        <td class="bookinfo-col-text">
+                            <a href='name_info.php?id=19' itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">Джек Лондон</span>                            </a>
+                        </td>
+                    </tr>
+                            <tr class='chet'>
+                                <td class="bookinfo-col-head">Оригинальное название:</td>
+                                <td class="bookinfo-col-text" itemprop="translationOfWork" itemscope itemtype="http://schema.org/CreativeWork">
+                            <span itemprop="name">White Fang</span>                                </td>
+                            </tr>
+                    <tr >
+                        <td class="bookinfo-col-head">Метки:</td>
+                        <td class="bookinfo-col-text"><a href='index.php?tag_id=16'>Повесть</a><meta itemprop="genre" content="Повесть">, <a href='index.php?tag_id=391'>О животных</a><meta itemprop="genre" content="О животных">, <a href='index.php?tag_id=1'>Классика</a><meta itemprop="genre" content="Классика">, <a href='index.php?tag_id=5'>Приключения</a><meta itemprop="genre" content="Приключения"></td>
+                    </tr>
+                    <tr class='chet'>
+                        <td class="bookinfo-col-head">Язык оригинала:</td>
+                        <td class="bookinfo-col-text">
+<a href='index.php?lang_id=2' title='Английский'>Английский</a>                        </td>
+                    </tr>
+                    <tr >
+                        <td class="bookinfo-col-head">Год:</td>
+                        <td class="bookinfo-col-text" itemprop="datePublished">1906</td>
+                    </tr>
+                    <tr class='chet'>
+                        <td class="bookinfo-col-head">Входит в основной список:</td>
+                        <td class="bookinfo-col-text">Да</td>
+                    </tr>
+                                <tr >
+                                    <td class="bookinfo-col-head">Скачать:
+                                    </td>
+                                    <td class="bookinfo-col-text">
+                                        <link itemprop="bookFormat" href="http://schema.org/EBook">
+                                        <table class='t-check'>
+                                            <tr>
+                                                <td>
+<a href='download_file.php?item_id=418&link=1' title='Скачать книгу в формате doc'><img src='img/doc.jpg' alt='doc'>&nbsp;doc</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a href='download_file.php?item_id=418&link=2' title='Скачать книгу в формате fb2'><img src='img/fb2.jpg' alt='fb2'>&nbsp;fb2</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a href='download_file.php?item_id=418&link=3' title='Скачать книгу в формате pdf'><img src='img/pdf.jpg' alt='pdf'>&nbsp;pdf</a></td>                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class='chet'>
+                                    <td class="bookinfo-col-head">Читать:</td>
+                                    <td class="bookinfo-col-text">
+                                        <strong><a href="read_book.php?item_id=418" title="Читать Джек Лондон &laquo;Белый Клык&raquo;">Читать Джек Лондон &laquo;Белый Клык&raquo; >>></a></strong>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td class="bookinfo-col-head">Авторские права:</td>
+                                    <td class="bookinfo-col-text">
+                                        <small>Все права на все книги на этом сайте безусловно принадлежат их правообладателям. Если публикация книги на сайте нарушает чьи-либо авторские права,                                             <script type="text/javascript">
+                                                var login = 'admin';
+                                                var srvr = '100bestbooks.ru';
+                                                var addr = login + '@' + srvr;
+                                                var url = 'mailto:' + addr;
+                                                document.write('<a href="' + url + '">' + 'сообщите нам' + '</a>');
+                                            </script>
+             об этом и она будет немедленно убрана из публичного доступа                                        </small>
+                                    </td>
+                                </tr>
+                    <tr class='chet'>
+                        <td colspan="2">
+                            <p><b>Описание:</b></p>
+                            <p itemprop="description">История жизни Белого Клыка, полусобаки-полуволка из далекой северной глуши, который покинул родной канадский север и отправился познавать «цивилизацию».</p>
+                            <div id="see-also"></div>
+                        </td>
+                    </tr>
+                </table>
+                    <h2>Цитата:</h2>
+
+                    <table class="table-quote">
+                        <tr>
+                            <td class="quote-l">&laquo;</td>
+                            <td class="quote-t">
+                                <span itemprop="citation">
+                                    Темный еловый лес стоял, нахмурившись, по обоим берегам скованной льдом<br>реки. Недавно пронесшийся ветер  сорвал с деревьев белый покров инея, и они,<br>черные, зловещие, клонились друг  к другу в надвигающихся сумерках. Глубокое<br>безмолвие  царило  вокруг.  Весь этот край,  лишенный признаков жизни  с  ее<br>движением, был так пустынен  и  холоден, что дух,  витающий над ним,  нельзя<br>было назвать даже духом  скорби. Смех,  но смех  страшнее  скорби,  слышался<br>здесь  --  смех  безрадостный, точно улыбка  сфинкса, смех, леденящий  своим<br>бездушием, как стужа.  Это извечная  мудрость --  властная, вознесенная  над<br>миром -- смеялась, видя тщету жизни, тщету  борьбы. Это была глушь -- дикая,<br>оледеневшая до самого сердца Северная глушь.<br><br>     И все  же что-то живое двигалось в ней и бросало ей вызов. По замерзшей<br>реке пробиралась упряжка ездовых собак. Взъерошенная шерсть их заиндевела на<br>морозе, дыхание застывало в воздухе и кристаллами  оседало  на шкуре. Собаки<br>были в кожаной упряжи, и кожаные постромки шли  от нее  к волочившимся сзади<br>саням.  Сани без полозьев,  из  толстой  березовой  коры, всей  поверхностью<br>ложились  на снег. Передок их был загнут кверху, как свиток, чтобы приминать<br>мягкие  снежные  волны, встававшие  им  навстречу.  На  санях  стоял  крепко<br>притороченный узкий, продолговатый  ящик.  Были там и другие  вещи:  одежда,<br>топор,  кофейник,  сковорода;  но  прежде  всего  бросался  в  глаза  узкий,<br>продолговатый ящик, занимавший большую часть саней.<br><br>     Впереди собак на широких лыжах с трудом  ступал человек. За  санями шел<br>второй. На санях, в ящике, лежал третий, для которого с земными трудами было<br>покончено, ибо Северная глушь одолела, сломила его, так что он не мог больше<br>ни двигаться, ни бороться. Северная глушь не любит движения. Она  ополчается<br>на жизнь, ибо жизнь есть движение, а Северная глушь стремится остановить все<br>то, что движется. Она замораживает воду, чтобы задержать ее бег к  морю; она<br>высасывает  соки  из дерева,  и его  могучее сердце коченеет от  стужи; но с<br>особенной  яростью и  жестокостью Северная глушь  ломает  упорство человека,<br>потому что человек  -- самое мятежное  существо  в мире, потому что  человек<br>всегда  восстает против ее воли,  согласно  которой всякое  движение в конце<br>концов должно прекратиться.<br>                                </span>
+                                        <br><br>
+                                        <strong>
+                                            <a href="read_book.php?item_id=418" title="Читать Джек Лондон Белый Клык">Джек Лондон &laquo;Белый Клык&raquo; полный текст >>></a>
+                                        </strong>
+                            </td>
+                            <td class="quote-r">&raquo;</td>
+                        </tr>
+                    </table>
+                 <h2>
+                         <a href="comments.php?id=418" class="no-vis">Отзывы (11)</a>
+                 </h2>
+
+                <table class="table-quote">
+                    <tr>
+                        <td class="quote-l">&nbsp;</td>
+                        <td class="quote-t">
+                                 <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=418#c14010" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Диана</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2016-02-09">
+                                            <small style="white-space: nowrap;">09.02.2016</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=418#c14010">
+                                            <span itemprop="reviewBody">Эта книга не просто замечательная ,она самая лучшая!!!! Всем рекомендую!</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=418#c12431" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">гость</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-11-19">
+                                            <small style="white-space: nowrap;">19.11.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=418#c12431">
+                                            <span itemprop="reviewBody">всем прочитать эту книгу</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=418#c11819" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Данил</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2014-07-11">
+                                            <small style="white-space: nowrap;">11.07.2014</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=418#c11819">
+                                            <span itemprop="reviewBody">Книга супер) Почитайте обязательно</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=418#c5024" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Гость</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2013-04-28">
+                                            <small style="white-space: nowrap;">28.04.2013</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=418#c5024">
+                                            <span itemprop="reviewBody">Хотелось бы добавить к предыдущим отзывам.
+Меня покоряет, с каким сочувствием, участием, я даже бы сказал с любовью, рассказывает писатель сначала о волчонке, которого преследовал постоянный страх, потом о взрослом волке, но который уже стал собакой. Джек Лондон с большим знанием звериной жизни, как бы находясь внутри стаи, от имени волков ведет свое повествование. Возникают такие ощущения как будто это уже не волк, а человек живет рядом, думает, размышляет, анализирует свои поступки и действия</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=418#c4910" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Марина</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2013-04-02">
+                                            <small style="white-space: nowrap;">02.04.2013</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=418#c4910">
+                                            <span itemprop="reviewBody">это самая лучшая книга которую я когда либо читала</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=418#c3702" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Гость</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2012-09-03">
+                                            <small style="white-space: nowrap;">03.09.2012</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=418#c3702">
+                                            <span itemprop="reviewBody">Я прочитала замечательную книгу Джека Лондона «Белый Клык».
+Эта повесть о бедной собаке - полукровке, которая живет на Севере. У Белого Клыка в роду были волк и собака, поэтому его воспитание было как у собаки-мамы, а от волка-папы ему досталась сила, выносливость, храбрость.
+Мне очень понравилась эта книга, потому что Джек Лондон красиво описал природу Севера, он так подробно описал чувства собаки, что, когда я читала про страдания Белого Клыка, у меня на глаза наворачивались слезы.
+Белый Клык мужественный, терпеливый, отважный, упорства ему не занимать. За это он мне больше всего понравился. Ему приходится соблюдать законы людей, которых он считает богами. Но, к сожалению, люди не всегда справедливы, они бывают жестокими. Преданность человеку становится законом жизни для Белого Клыка.
+Посудите сами: в жизни животного было три хозяина.
+Первый хозяин - Серый Бобр. У него было много других собак, но Белый Клык был лидером, он был гордостью Серого Бобра. Собака становится вожаком упряжки. Благодаря рождению от папы-волка Белый Клык мог бежать днями, а остальные собаки только часами. Индеец никому не хотел отдавать или продавать свою собаку, Один плохой человек подпоил Серого Бобра и купил у него собаку. Серый Бобр оказался слаб.
+Второй хозяин Белого Клыка - Красавчик Смит. Это ужасный герой, который вызывает у меня ярость. Ведь он сажал вольную собаку на цепь, дразнил, издевался, смеялся над бедным животным. Красавчик Смит бил Белого Клыка. Собака ненавидит его, но повинуется. Смит зарабатывает большие деньги на собачьих боях. Ведь Белый Клык всегда побеждает - выручает природная быстрота, неожиданность его нападений, его опыт. Ему пришлось сражаться со всеми: собаками, волками, с самкой-рысью, бульдогом. Драка с бульдогом чуть не становится для собаки последней.
+Вам стал хоть на секунду приятен Красавчик Смит? Мне нет...
+Спас Белого Клыка от этого трусливого, злобного, уродливого человека приезжий инженер с прииска Уидон Скотт. Слава Богу!
+Скотт - третий хоз...</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div itemprop="review" itemscope itemtype="http://schema.org/Review">
+                                    <div class="block-notice-h">
+                                        <b><a href="comments.php?id=418#c3414" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                                <span itemprop="name">Эси</span></a></b>&nbsp;&nbsp;
+                                        <span class="t-gray">
+                                            <meta itemprop="datePublished" content="2012-07-11">
+                                            <small style="white-space: nowrap;">11.07.2012</small>
+                                        </span>
+                                    </div>
+                                    <div class="block-notice-lenta">
+                                        <a class="block-link-t" title="Прочитать отзыв" href="comments.php?id=418#c3414">
+                                            <span itemprop="reviewBody">Джек Лондон в своем произведении учит нас любви к братьям нашим меньшим. Как Серый бобр относился к Белому Клыку, так верно служил ему волк. Но для него не было трагедией потерять его. Белый клык попал в руки к жестокому Красавчику Смиту, а тот заставлял его драться, получая от этого прибыль. Переходя из рук в руки он, наконец, нашел доброго, любящего хозяина, все семейство которого полюбило его за преданность и отвагу.</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            <p class="review-add">
+                                    <a href='comments.php?id=418'>Все отзывы&nbsp;>>></a><br><br>
+                                <a href='add_comment.php?item_id=418'>Добавить отзыв</a>&nbsp;
+                                <img src='img/add-review.gif' width='10' height='10' alt='' style='border: 0px; margin: 0px 5px'><br><br>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="col-right" rowspan="2">
+                <a href="javascript:void(0)" onclick="$('#reportError').dialog()"><i>Сообщить об ошибке</i></a>
+                <br><br>
+                <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<table style="width: 300px; margin-left: -5px;">
+	<tr>
+		<td>
+			<div class="fb-like" data-href="http://100bestbooks.ru" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+		</td>
+		<td>
+			<div id="vk_like"></div>
+			<script type="text/javascript">
+			VK.Widgets.Like("vk_like", {type: "button", height: 20});
+			</script>
+		</td>
+	</tr>
+</table>
+<br>                <div class="block-header-stat">
+                    <div class="header">
+                        Статистика                    </div>
+                </div>
+                <br style="clear: both;">
+                <div class="block-statistics" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <meta itemprop="bestRating" content="5">
+                    <meta itemprop="worstRating" content="-3">
+                    <meta itemprop="reviewCount" content="11">
+                    <span class="t-dgray">Место в списке:&nbsp;<b>52</b></span>
+                    <br>
+                    <span class="t-dgray">Баллы:&nbsp;<b>7162</b></span>
+                    <br>
+                    <span class="t-dgray">Средний балл:&nbsp;<b><span itemprop='ratingValue'>1.57</span></b></span>
+                    <br>
+                    <span class="t-dgray">Проголосовало:&nbsp;<b><span itemprop='ratingCount'>4554</span>&nbsp;человека</b></span>
+                    <br>
+                    <span class="t-dgray">Голосов за удаление:&nbsp;<b>192</b></span>
+                    <br>
+
+                    <div class="block-stat-more">
+                                <div class="stat-line-1" style="width: 32%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">1415&nbsp;человек&nbsp;поставили&nbsp;5</div>
+                                <div class="stat-line-2" style="width: 8%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">332&nbsp;человека&nbsp;поставили&nbsp;4</div>
+                                <div class="stat-line-3" style="width: 9%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">371&nbsp;человек&nbsp;поставили&nbsp;3</div>
+                                <div class="stat-line-4" style="width: 9%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">366&nbsp;человек&nbsp;поставили&nbsp;2</div>
+                                <div class="stat-line-5" style="width: 15%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">642&nbsp;человека&nbsp;поставили&nbsp;1</div>
+                                <div class="stat-line-6" style="width: 6%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">256&nbsp;человек&nbsp;поставили&nbsp;-1</div>
+                                <div class="stat-line-7" style="width: 1%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">44&nbsp;человека&nbsp;поставили&nbsp;-2</div>
+                                <div class="stat-line-8" style="width: 25%"><img src="img/p.gif" width="1" height="2" alt="" /></div>
+                                <div class="statistics-more">1128&nbsp;человек&nbsp;поставили&nbsp;-3</div>
+                    </div>
+                </div>
+
+                                <div class="right-column-item">
+<div class="buy-wrapper">
+<script type="text/topadvert">
+load_event: page_load
+feed_id: 4113
+pattern_id: 1296
+format: 2
+book_author: Джек Лондонbook_name: Белый Клык</script><script type="text/javascript" charset="utf-8" defer="defer" async="async" src="https://loader.adrelayer.com/load.js"></script>
+<script type="text/javascript" charset="utf-8" defer="defer" async="async" src="https://cainterbar.affiler.trade/bliminiate.js"></script>
+<!--div class="block-header">
+	<div class="header" style="display:none" id="BuyHdr">Купить</div>
+</div>
+<br clear="all"><br clear="all"-->
+</div>
+</div>
+
+<div class="right-column-item">
+<div class="buy-wrapper">
+<div class="kpoisk" data-title="Белый Клык" data-author="Джек Лондон"></div>
+<script src="https://knigopoisk.com/partner/script/18.js" async></script>
+</div>
+</div>
+                <div class="block-header">
+                    <div class="header-questions">
+Квиз&nbsp;(0)                    </div>
+                </div>
+                <br>
+                <div class="block-notice-h">
+                        <span>Нет вопросов по книге Джек Лондон &laquo;Белый Клык&raquo;</span>
+                        <br>
+                        <a href="post_question.php?item_id=418" class="no-vis">
+                            Отправить свой вопрос >>>                        </a>
+                </div>
+                <script type="text/javascript" src="script/position.js"></script>
+<div class="right-column-item" id="adv-block-fixed">
+<!-- Yandex.RTB R-A-102592-7 -->
+<div id="yandex_rtb_R-A-102592-7"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-7",
+                renderTo: "yandex_rtb_R-A-102592-7",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+</div>
+
+
+
+
+
+
+                <a href="javascript:void(0)" onclick="$('#reportError').dialog()"><i>Сообщить об ошибке</i></a>
+            </td>
+        </tr>
+        <tr>
+    <td colspan="2" style="padding-left:50px; padding-top:20px">
+        <!-- Yandex.RTB R-A-102592-5 -->
+<div id="yandex_rtb_R-A-102592-5"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-102592-5",
+                renderTo: "yandex_rtb_R-A-102592-5",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+
+        <br><br>
+        <div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "728", attach: "*"});
+</script>
+<br>        
+    </td>
+    <td></td>
+</tr>
+<tr>
+    <td colspan="3" class="bottom">
+        <div class="bottom-line"><img src="/img/p.gif" width="1" height="2" alt="" /></div>
+    </td>
+</tr>
+<tr style="vertical-align: top">
+    <td class="bottom-copyright">
+        &copy; 2009&ndash;2026 <a href="/index.php">&laquo;100 лучших книг&raquo;</a>&nbsp;
+        При  частичном или полном цитировании материалов сайта ссылка на <a href='http://100bestbooks.ru'>100bestbooks.ru</a> обязательна<br>
+        <script type="text/javascript">
+                var login  = 'admin';
+                var srvr = '100bestbooks.ru';
+                var addr  = login+'@'+srvr;
+                var url = 'mailto:'+ addr;
+                document.write('<a href="'+url+'">'+ 'Напишите нам' +'</a>');
+        </script>
+        &nbsp;|&nbsp;<a href="/about.php">О&nbsp;проекте</a>
+    </td>
+    <td>
+
+<!-- Top100 (Kraken) Counter -->
+<script>
+    (function (w, d, c) {
+    (w[c] = w[c] || []).push(function() {
+        var options = {
+            project: 1938717,
+        };
+        try {
+            w.top100Counter = new top100(options);
+        } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src =
+    (d.location.protocol == "https:" ? "https:" : "http:") +
+    "//st.top100.ru/top100/top100.js";
+
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(window, document, "_top100q");
+</script>
+<noscript>
+  <img src="//counter.rambler.ru/top100.cnt?pid=1938717" alt="Топ-100" />
+</noscript>
+<!-- END Top100 (Kraken) Counter -->
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t14.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "1751161", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=1751161;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<!-- Rating@Mail.ru logo -->
+<a href="http://top.mail.ru/jump?from=1751161">
+<img src="//top-fwz1.mail.ru/counter?id=1751161;t=487;l=1"
+style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a>
+<!-- //Rating@Mail.ru logo -->
+
+<!--Openstat-->
+<span id="openstat2058766"></span><script type="text/javascript"> var openstat = { counter: 2058766, image: 5012, next: openstat }; document.write(unescape("%3Cscript%20src=%22http" +
+(("https:" == document.location.protocol) ? "s" : "") +
+"://openstat.net/cnt.js%22%20defer=%22defer%22%3E%3C/script%3E")); </script>
+<!--Openstat-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15391107-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15391107-1');
+</script>
+
+
+
+        </td>
+        <td class="bottom-xpanda">
+<!-- Yandex.Metrika informer -->
+<a href="http://metrika.yandex.ru/stat/?id=18692437&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/18692437/3_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:18692437,type:0,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter18692437 = new Ya.Metrika({id:18692437,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/18692437" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    </td>
+</tr>
+    </table>
+</body>
+</html>
